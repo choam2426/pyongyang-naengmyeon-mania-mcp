@@ -44,10 +44,10 @@ pip install -e .
 MCP Inspector를 사용하면 브라우저에서 도구를 직접 테스트할 수 있습니다.
 
 ```bash
-# npx로 실행
-npx @modelcontextprotocol/inspector uv run python -m pyongyang_naengmyeon.server
+# PYTHONPATH 설정 후 실행
+$env:PYTHONPATH="src"  # PowerShell
+# export PYTHONPATH=src  # Bash
 
-# 또는 pip 설치 후
 npx @modelcontextprotocol/inspector python -m pyongyang_naengmyeon.server
 ```
 
@@ -56,8 +56,9 @@ npx @modelcontextprotocol/inspector python -m pyongyang_naengmyeon.server
 ### 2. 직접 실행 테스트
 
 ```bash
-# 서버 직접 실행 (stdio 모드)
-uv run python -m pyongyang_naengmyeon.server
+# PYTHONPATH 설정 후 서버 실행 (stdio 모드)
+$env:PYTHONPATH="src"  # PowerShell
+python -m pyongyang_naengmyeon.server
 ```
 
 ### 3. 린트 & 타입 체크
@@ -80,9 +81,12 @@ uv run mypy src/
 {
   "mcpServers": {
     "pyongyang-naengmyeon": {
-      "command": "uv",
-      "args": ["run", "python", "-m", "pyongyang_naengmyeon.server"],
-      "cwd": "/path/to/pyongyang-naengmyeon-mcp"
+      "command": "python",
+      "args": ["-m", "pyongyang_naengmyeon.server"],
+      "cwd": "/path/to/pyongyang-naengmyeon-mcp",
+      "env": {
+        "PYTHONPATH": "/path/to/pyongyang-naengmyeon-mcp/src"
+      }
     }
   }
 }
@@ -96,9 +100,12 @@ uv run mypy src/
 {
   "mcpServers": {
     "pyongyang-naengmyeon": {
-      "command": "uv",
-      "args": ["run", "python", "-m", "pyongyang_naengmyeon.server"],
-      "cwd": "/path/to/pyongyang-naengmyeon-mcp"
+      "command": "python",
+      "args": ["-m", "pyongyang_naengmyeon.server"],
+      "cwd": "/path/to/pyongyang-naengmyeon-mcp",
+      "env": {
+        "PYTHONPATH": "/path/to/pyongyang-naengmyeon-mcp/src"
+      }
     }
   }
 }
@@ -187,6 +194,53 @@ class Restaurant(BaseModel):
     # 메타
     recommended_for: list[ExperienceLevel]
     special_notes: list[str]
+```
+
+## AWS 배포
+
+### 1. Docker 이미지 빌드 & ECR 푸시
+
+```bash
+# ECR 로그인
+aws ecr get-login-password --region ap-northeast-2 | docker login --username AWS --password-stdin <account-id>.dkr.ecr.ap-northeast-2.amazonaws.com
+
+# 이미지 빌드
+docker build -t pyongyang-naengmyeon-mcp .
+
+# 태그 & 푸시
+docker tag pyongyang-naengmyeon-mcp:latest <account-id>.dkr.ecr.ap-northeast-2.amazonaws.com/pyongyang-naengmyeon-mcp:latest
+docker push <account-id>.dkr.ecr.ap-northeast-2.amazonaws.com/pyongyang-naengmyeon-mcp:latest
+```
+
+### 2. AWS App Runner로 배포 (권장)
+
+1. AWS Console → App Runner → Create service
+2. Source: Container registry → Amazon ECR
+3. 이미지 URI 입력
+4. Port: 8000
+5. Create & deploy
+
+### 3. 배포 후 사용
+
+MCP 서버 URL: `https://your-app-runner-url.awsapprunner.com`
+
+```json
+{
+  "mcpServers": {
+    "pyongyang-naengmyeon": {
+      "url": "https://your-app-runner-url.awsapprunner.com/sse"
+    }
+  }
+}
+```
+
+### 로컬 SSE 서버 테스트
+
+```bash
+$env:PYTHONPATH="src"  # PowerShell
+python -m pyongyang_naengmyeon.sse_server
+
+# http://localhost:8000/health 로 헬스체크
 ```
 
 ## 기여
