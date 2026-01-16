@@ -37,7 +37,9 @@ class MCPHandler:
 
         import anyio
 
-        request_transport = StreamableHTTPServerTransport("/mcp")
+        # 요청 경로에 맞게 transport 생성
+        path = scope.get("path", "/mcp").rstrip("/") or "/mcp"
+        request_transport = StreamableHTTPServerTransport(path)
         server = create_server()
 
         async with request_transport.connect() as (read_stream, write_stream):
@@ -79,8 +81,9 @@ app = Starlette(
         # SSE (레거시)
         Route("/sse", endpoint=handle_sse),
         Mount("/messages/", app=sse_transport.handle_post_message),
-        # Streamable HTTP (PlayMCP용)
+        # Streamable HTTP (PlayMCP용) - 두 경로 모두 지원
         Route("/mcp", endpoint=mcp_handler, methods=["GET", "POST", "DELETE", "OPTIONS"]),
+        Route("/mcp/", endpoint=mcp_handler, methods=["GET", "POST", "DELETE", "OPTIONS"]),
     ],
     middleware=[
         Middleware(
@@ -90,6 +93,7 @@ app = Starlette(
             allow_headers=["*"],
         )
     ],
+    redirect_slashes=False,
 )
 
 
