@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for pyongyang-naengmyeon-mania-mcp on 2026-01-16T12:34:54Z
+# fly.toml app configuration file generated for pyongyang-naengmyeon-mania-mcp on 2026-01-16T12:44:13Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'pyongyang-naengmyeon-mania-mcp'
-primary_region = 'sjc'
+primary_region = 'ams'
 
 [build]
 
@@ -17,6 +17,7 @@ primary_region = 'sjc'
   processes = ['app']
 
 [[vm]]
+  memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
   memory_mb = 256
