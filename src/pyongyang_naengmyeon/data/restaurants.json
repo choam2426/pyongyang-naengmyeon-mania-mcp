@@ -1,0 +1,4148 @@
+{
+    "metadata": {
+        "title": "수도권 평양냉면 맛집 통합 데이터",
+        "version": "3.0.0",
+        "created_at": "2026-01-15",
+        "total_count": 24,
+        "description": "5개 데이터 소스를 통합한 수도권 평양냉면 맛집 상세 데이터 (2025년 가격·미쉐린 반영)",
+        "data_sources": [
+            "restaurants-openai-deepresearch.json (Deep Research)",
+            "restaurants-openai.json (OpenAI 조사)",
+            "pyongyang_naengmyeon_mcp_data.json (MCP 서버 데이터)",
+            "merged_restaurants.json (기존 통합본)",
+            "restaurants.json (기본 데이터)"
+        ]
+    },
+    "restaurants": [
+        {
+            "id": 1,
+            "slug": "gangseo-myeonok-seosomun",
+            "tier": 2,
+            "name": "강서면옥",
+            "name_hanja": null,
+            "name_english": "Gangseo Myeonok",
+            "address": "서울 중구 세종대로11길 35",
+            "address_detail": "서소문동",
+            "region": "jongno_euljiro",
+            "region_code": "jongno_euljiro",
+            "phone": "02-752-1945",
+            "hours": {
+                "weekday": "매일 11:00–22:00",
+                "weekend": "매일 11:00–22:00"
+            },
+            "hours_string": "11:00-21:00",
+            "closed_days": [
+                "명절 연휴"
+            ],
+            "closed_days_string": "일요일",
+            "history": {
+                "founded_year": 1948,
+                "founder": "평남 강서 출신 실향민",
+                "origin": "평남 강서",
+                "lineage": "독자적 계열",
+                "story": "1953년 시작 후 1958년 서울로 이전. 70년 이상 전통의 노포"
+            },
+            "lineage": "independent",
+            "generation": 2,
+            "origin_story": "시청역 뒤쪽에 위치한 노포로 평양냉면과 함께 왕만두로 유명하다.",
+            "menu": {
+                "signature": "평양물냉면",
+                "naengmyeon_price": 15000,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": false,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "삼겹살",
+                    "함흥비빔냉면",
+                    "버섯구이",
+                    "와규 등심"
+                ]
+            },
+            "price_range": "₩15,000–₩65,000",
+            "side_menus": [
+                {
+                    "name": "왕만두",
+                    "price": 3500,
+                    "is_signature": true,
+                    "pairing_note": "주먹보다 큰 만두로 냉면과 함께 먹으면 포만감이 크다."
+                },
+                {
+                    "name": "불고기",
+                    "price": 42000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "김치말이냉면",
+                    "price": 14000,
+                    "is_signature": true,
+                    "pairing_note": "밥 위에 메밀면을 올리고 육수를 부은 후 겉절이 배추김치와 편육을 얹은 별미 냉면"
+                },
+                {
+                    "name": "족발",
+                    "price": 30000,
+                    "is_signature": true,
+                    "pairing_note": "족발과 냉면을 함께 먹는 조합이 인기."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 3,
+                "depth_level": 4,
+                "saltiness_level": 4,
+                "beef_aroma_level": 3,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": true,
+                "characteristics": "동치미 향이 강하게 나는 느낌",
+                "taste_profile": "제법 간이 있는 편, 간장맛",
+                "saltiness": "강함",
+                "description": "육향과 단맛이 느껴지는 진한 국물로 초보자도 쉽게 즐길 수 있다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 60,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "찰진 식감",
+                    "쫄깃함",
+                    "적당한 탄력",
+                    "탄력",
+                    "부드러움",
+                    "쫄깃"
+                ],
+                "texture": "소화가 잘 됨",
+                "description": "감자전분 함량이 높아 쫄깃한 식감을 가지며 양도 넉넉하다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "보쌈·족발 등과 함께 주문되는 경우가 많음",
+                    "배추김치"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 4,
+                "noodle_aroma": 3,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 75,
+                "reviewer_note": "간간한 국물과 큼지막한 왕만두가 특징으로 대중적으로 사랑받는다."
+            },
+            "certifications": [
+                {
+                    "type": "blue_ribbon",
+                    "year": 2022,
+                    "detail": "블루리본 서베이 수록"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2025,
+                    "detail": "블루리본 서베이 선정"
+                }
+            ],
+            "awards": [
+                "서울 평양냉면 노포"
+            ],
+            "features": [
+                "70년 이상 전통의 노포",
+                "고기류 메뉴도 다양"
+            ],
+            "parking": "근처 공영주차장",
+            "parking_available": false,
+            "reservation": true,
+            "reservation_available": false,
+            "accessibility": "시청역 9번 출구 도보 159m",
+            "average_wait_minutes": 15,
+            "recommended_for": [
+                "beginner",
+                "intermediate"
+            ],
+            "best_season": "summer",
+            "special_notes": [
+                "포장 판매도 인기",
+                "갈비구이와 평양냉면 세트 주문 가능",
+                "평양냉면 입문자도 편히 즐길 수 있는 맛"
+            ],
+            "famous_visitors": [],
+            "tags": [
+                "서울냉면",
+                "왕만두",
+                "보쌈",
+                "가족외식",
+                "유명",
+                "노포"
+            ],
+            "rating_score": 4.1,
+            "order_options": null
+        },
+        {
+            "id": 2,
+            "slug": "nampo-myeonok-euljiro",
+            "tier": 1,
+            "name": "남포면옥",
+            "name_hanja": null,
+            "name_english": "Nampo Myeonok",
+            "address": "서울 중구 을지로3길 24",
+            "address_detail": "다동 121-4",
+            "region": "jongno_euljiro",
+            "region_code": "jongno_euljiro",
+            "phone": "02-757-2269",
+            "hours": {
+                "weekday": "매일 11:30–22:00",
+                "weekend": "매일 11:30–22:00"
+            },
+            "hours_string": "11:00-20:30",
+            "closed_days": [
+                "명절"
+            ],
+            "closed_days_string": "일요일",
+            "history": {
+                "founded_year": 1954,
+                "founder": "조씨, 곽봉순",
+                "origin": "평안도 진남포",
+                "lineage": "독자적 계열",
+                "story": "상호는 평안도의 진남포에서 따옴. 100년 된 한옥 건물에서 50년 이상 영업"
+            },
+            "lineage": "independent",
+            "generation": 2,
+            "origin_story": "을지로입구역 근처에 자리한 오래된 냉면집으로 동치미 향이 강한 국물과 부드러운 면발로 초보자에게도 추천된다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 15000,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "빈대떡",
+                    "어복쟁반",
+                    "전"
+                ]
+            },
+            "price_range": "₩15,000–₩40,000",
+            "side_menus": [
+                {
+                    "name": "큰접시 편육",
+                    "price": 45000,
+                    "is_signature": true,
+                    "pairing_note": null
+                },
+                {
+                    "name": "비빔냉면",
+                    "price": 15000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "돼지 족편육",
+                    "price": 30000,
+                    "is_signature": true,
+                    "pairing_note": "매장 특제 새우젓 양념에 찍어 먹는 돼지고기 편육이 냉면 육수와 잘 어울림"
+                },
+                {
+                    "name": "물만두",
+                    "price": 9000,
+                    "is_signature": true,
+                    "pairing_note": "담백한 물만두와 냉면 조합이 인기."
+                },
+                {
+                    "name": "편육",
+                    "price": 23000,
+                    "is_signature": false,
+                    "pairing_note": "술안주 겸 식사 사이드."
+                }
+            ],
+            "broth": {
+                "base": "dongchimi_main",
+                "clarity_level": 4,
+                "depth_level": 3,
+                "saltiness_level": 3,
+                "beef_aroma_level": 2,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": true,
+                "characteristics": "동치미 육수가 인상적, 맑은 느낌",
+                "taste_profile": "짭짤한 편, 시큼한 향이 강하지 않음",
+                "saltiness": "강함",
+                "description": "동치미 국물을 듬뿍 사용해 새콤달콤하고 시원한 맛이 강조되며 육향은 약하다."
+            },
+            "noodle": {
+                "style": "thin_crumbly",
+                "buckwheat_ratio": 80,
+                "thickness": "thin",
+                "homemade": true,
+                "texture_keywords": [
+                    "가늘음",
+                    "부드러움",
+                    "탄력",
+                    "적당한 탄력"
+                ],
+                "texture": "쫄깃하고 꼬들한 면발",
+                "description": "메밀향이 좋고 부드러운 면발이 동치미 육수와 잘 어울린다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "열무김치",
+                    "만두와 함께 주문하는 손님이 많음",
+                    "김치",
+                    "겨자"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 3,
+                "noodle_aroma": 4,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 78,
+                "reviewer_note": "동치미의 시원한 맛이 강해 초보자도 즐기기 좋으며 다양한 방송에서 소개됐다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2024,
+                    "detail": "tvN 유 퀴즈·문재인 전 대통령 방문"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 수록"
+                },
+                {
+                    "type": "broadcast",
+                    "year": 2015,
+                    "detail": "VJ특공대 '평양냉면 달인' 편 소개"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2022,
+                    "detail": "블루리본 서베이 노포 냉면집"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2025,
+                    "detail": "블루리본 서베이 선정"
+                }
+            ],
+            "awards": [
+                "미쉐린 가이드 (2018년~)"
+            ],
+            "features": [
+                "어복쟁반이 유명",
+                "빈대떡이 맛있기로 유명",
+                "100년 된 한옥 건물"
+            ],
+            "parking": "없음 (인근 유료주차장)",
+            "parking_available": false,
+            "reservation": true,
+            "reservation_available": false,
+            "accessibility": "을지로입구역 1-1번 출구 도보 2~3분",
+            "average_wait_minutes": 25,
+            "recommended_for": [
+                "beginner"
+            ],
+            "best_season": "all",
+            "special_notes": [
+                "해장으로 김치말이냉면을 찾는 단골 多",
+                "어복쟁반은 예약 주문 필요",
+                "다동 골목 100년 한옥"
+            ],
+            "famous_visitors": [
+                "문재인",
+                "현대가 인사"
+            ],
+            "tags": [
+                "진남포",
+                "어복쟁반",
+                "평양냉면",
+                "노포",
+                "남포면옥",
+                "동치미냉면",
+                "빈대떡"
+            ],
+            "rating_score": 4.3,
+            "order_options": null
+        },
+        {
+            "id": 3,
+            "slug": "neungradow-pangyo",
+            "tier": 1,
+            "name": "능라도",
+            "name_hanja": null,
+            "name_english": "Neungrado",
+            "address": "경기도 성남시 분당구 산운로32번길 12",
+            "address_detail": "운중동 883-3",
+            "region": "gyeonggi_south",
+            "region_code": "gyeonggi_south",
+            "phone": "031-8016-7717",
+            "hours": {
+                "weekday": "11:30~21:30 (브레이크 15:00~17:00)",
+                "weekend": "11:30~21:30 (브레이크 15:00~17:00)"
+            },
+            "hours_string": "11:00-21:30",
+            "closed_days": [
+                "설날",
+                "추석 당일"
+            ],
+            "closed_days_string": "비정기",
+            "history": {
+                "founded_year": 1988,
+                "founder": "북한 출신",
+                "origin": "북한",
+                "lineage": "북한식 (독자적)",
+                "story": "1988년부터 이어진 북한식 평양냉면 가게. 실제 창업주가 북한분"
+            },
+            "lineage": "okryugwan",
+            "generation": 1,
+            "origin_story": "판교에 자리 잡은 큰 규모의 평양냉면 전문점으로 100% 메밀 면과 시원한 육수, 넓은 주차장을 갖추었다. 옥류관 스타일의 냉면을 지향한다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 15000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "이북식만두",
+                    "평양온반",
+                    "평양옥류관냉면",
+                    "녹두지짐"
+                ]
+            },
+            "price_range": "₩16,000–₩70,000",
+            "side_menus": [
+                {
+                    "name": "수육",
+                    "price": 35000,
+                    "is_signature": true,
+                    "pairing_note": null
+                },
+                {
+                    "name": "어복쟁반",
+                    "price": 90000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "한우 불고기",
+                    "price": 40000,
+                    "is_signature": true,
+                    "pairing_note": "양념한 국내산 한우 불고기를 상에 직접 구워 먹는 메뉴로 냉면과 함께 즐기기 좋음"
+                },
+                {
+                    "name": "불고기",
+                    "price": 28000,
+                    "is_signature": true,
+                    "pairing_note": "불고기와 냉면을 함께 주문하는 점심·저녁 코스가 인기."
+                },
+                {
+                    "name": "왕갈비탕",
+                    "price": 15000,
+                    "is_signature": false,
+                    "pairing_note": "국물 메뉴와 냉면을 나눠 먹는 가족 방문에 적합."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": false,
+                "characteristics": "맑고 깔끔한 육수, 깊은 감칠맛",
+                "taste_profile": "깔끔하고 개운함",
+                "saltiness": "약함 (슴슴)",
+                "description": "넓은 식당에서 제공되는 육수는 소고기와 동치미 맛이 조화롭고 담백하다."
+            },
+            "noodle": {
+                "style": "thin_crumbly",
+                "buckwheat_ratio": 100,
+                "thickness": "thin",
+                "homemade": true,
+                "texture_keywords": [
+                    "순면",
+                    "적당한 메밀향",
+                    "부드러움",
+                    "탄력",
+                    "거친 면발",
+                    "메밀향"
+                ],
+                "texture": "면에서 고기육수 맛이 남",
+                "description": "100% 메밀을 사용한 면은 부드럽고 향이 진하다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "무절임",
+                    "계란 지단",
+                    "김치",
+                    "겨자",
+                    "무김치"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 4,
+                "noodle_aroma": 5,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 85,
+                "reviewer_note": "대형 매장에서 즐기는 평양냉면으로 100% 메밀면이 돋보이고 육수의 맛도 안정적이다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2022,
+                    "detail": "여러 맛집 프로그램 소개"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 수록"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2023,
+                    "detail": "블루리본 서베이 경기 남부 평양냉면 대표 맛집"
+                }
+            ],
+            "awards": [
+                "분당/판교 평양냉면 맛집"
+            ],
+            "features": [
+                "평친자 로드 1순위",
+                "조정석 단골 맛집"
+            ],
+            "parking": "전용 주차장 무료, 발렛 3,000원",
+            "parking_available": true,
+            "reservation": false,
+            "reservation_available": true,
+            "accessibility": "판교 운중동 위치",
+            "average_wait_minutes": 20,
+            "recommended_for": [
+                "intermediate"
+            ],
+            "best_season": "summer",
+            "special_notes": [
+                "평양옥류관냉면은 하루 20그릇 한정 판매",
+                "주말에는 재료 소진 시 조기 마감"
+            ],
+            "famous_visitors": [
+                "조정석"
+            ],
+            "tags": [
+                "능라도",
+                "판교맛집",
+                "직접제면",
+                "옥류관",
+                "순메밀",
+                "평양냉면"
+            ],
+            "rating_score": 4.3,
+            "order_options": null
+        },
+        {
+            "id": 4,
+            "slug": "dongmu-bapsang-hapjeong",
+            "tier": 2,
+            "name": "동무밥상",
+            "name_hanja": null,
+            "name_english": "Dongmu Bapsang",
+            "address": "서울 마포구 월드컵로 25길 22",
+            "address_detail": "합정동 471",
+            "region": "mapo_yeouido",
+            "region_code": "mapo_yeouido",
+            "phone": "02-326-7507",
+            "hours": {
+                "weekday": "월–토 11:30–21:30 (브레이크타임 16:00–17:00)",
+                "weekend": "월–토 11:30–21:30 (브레이크타임 16:00–17:00)"
+            },
+            "hours_string": "11:00-21:30",
+            "closed_days": [
+                "월요일"
+            ],
+            "closed_days_string": "월요일 (변동 가능)",
+            "history": {
+                "founded_year": 2016,
+                "founder": "옥류관 출신 셰프",
+                "origin": "옥류관",
+                "lineage": "옥류관_스타일",
+                "story": "리설주 여사가 다녀간 것으로 유명한, 옥류관 요리사가 운영하는 평양냉면집. 북한 평양식 순대 등 사이드 메뉴도 판매"
+            },
+            "lineage": "independent",
+            "generation": 1,
+            "origin_story": "합정역 인근에 위치하며, 옥류관 셰프 출신 대표가 운영해 북한식 요리와 평양냉면을 함께 선보인다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 13000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": false,
+                "other_menus": [
+                    "평양순대국밥",
+                    "동치미국수",
+                    "평양온면"
+                ]
+            },
+            "price_range": "₩13,000–₩40,000",
+            "side_menus": [
+                {
+                    "name": "접시만두",
+                    "price": 10000,
+                    "is_signature": true,
+                    "pairing_note": "평양냉면과 함께 곁들이기 좋은 야채 풍부한 만두"
+                },
+                {
+                    "name": "평양순대",
+                    "price": 15000,
+                    "is_signature": true,
+                    "pairing_note": "메밀피로 만든 담백한 평양식 순대"
+                },
+                {
+                    "name": "돼지귀찜",
+                    "price": 30000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "편육",
+                    "price": 35000,
+                    "is_signature": false,
+                    "pairing_note": "도톰하게 썬 돼지고기 편육으로 북한식 새우젓 곁들이면 좋음"
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 3,
+                "saltiness_level": 4,
+                "beef_aroma_level": 3,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": true,
+                "characteristics": "새콤한 동치미 국물감, 간이 센 편",
+                "taste_profile": "새콤하면서 진한 맛",
+                "saltiness": "강함",
+                "description": "소고기 육수와 동치미 국물을 섞어 감칠맛이 강하고 새콤한 국물을 낸다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 50,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "쫄깃함",
+                    "무난함",
+                    "탄력"
+                ],
+                "texture": "탄력있는 식감",
+                "description": "메밀과 전분을 혼합해 쫄깃한 면발로 뽑는다."
+            },
+            "toppings": {
+                "has_pyeonyuk": false,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": true,
+                "extras": [
+                    "부추무침",
+                    "새우젓",
+                    "백김치"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 4,
+                "noodle_aroma": 3,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 3,
+                "authenticity_score": 70,
+                "reviewer_note": "고기 고명이 많고 국물이 짭짤해 평냉 초심자에게도 무난하지만 전통적인 맛과는 다소 거리가 있다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2021,
+                    "detail": "SBS 맛있는 녀석들 '직화 소불고기 평양냉면' 편 소개"
+                }
+            ],
+            "awards": [
+                "생생정보통 출연"
+            ],
+            "features": [
+                "가성비 좋은 평양냉면",
+                "숯불갈비와 함께 먹기 좋음"
+            ],
+            "parking": "가게 주차장",
+            "parking_available": false,
+            "reservation": false,
+            "reservation_available": true,
+            "accessibility": "마포역 인근",
+            "average_wait_minutes": 10,
+            "recommended_for": [
+                "beginner",
+                "intermediate"
+            ],
+            "best_season": "winter",
+            "special_notes": [
+                "이북술 담금주로 담근 독특한 술 판매"
+            ],
+            "famous_visitors": [],
+            "tags": [
+                "옥류관",
+                "평양순대",
+                "평양냉면",
+                "부추",
+                "동무밥상",
+                "숯불갈비"
+            ],
+            "rating_score": 4.1,
+            "order_options": null
+        },
+        {
+            "id": 5,
+            "slug": "bonga-pyeongyang-gangnam",
+            "tier": 2,
+            "name": "본가평양면옥",
+            "name_hanja": null,
+            "name_english": "Bonga Pyeongyang Myeonok",
+            "address": "서울 강남구 논현로79길 74",
+            "address_detail": "역삼동 689",
+            "region": "gangnam_seocho",
+            "region_code": "gangnam_seocho",
+            "phone": "02-558-8100",
+            "hours": {
+                "weekday": "월–토 11:30–22:00 (브레이크타임 15:00–17:00)",
+                "weekend": "월–토 11:30–22:00 (브레이크타임 15:00–17:00)"
+            },
+            "hours_string": "11:30-22:00",
+            "closed_days": [
+                "일요일"
+            ],
+            "closed_days_string": "월요일",
+            "history": {
+                "founded_year": 1986,
+                "founder": "장기현",
+                "origin": "의정부 평양면옥 계열",
+                "lineage": "의정부파",
+                "story": "의정부 평양면옥 창업주 사위가 개업. 장충동 평양면옥의 맛을 계승"
+            },
+            "lineage": "uijeongbu",
+            "generation": 2,
+            "origin_story": "강남권에서 30년 이상 영업한 평양냉면집으로, 을지면옥·필동면옥과 함께 의정부 평양면옥 계열의 주요 분파 중 하나이다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 13000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "녹두전",
+                    "어복쟁반"
+                ]
+            },
+            "price_range": "₩13,000–₩85,000",
+            "side_menus": [
+                {
+                    "name": "접시만두",
+                    "price": 12000,
+                    "is_signature": true,
+                    "pairing_note": "담백하고 촉촉한 평양식 만두. 냉면과 잘 어울림"
+                },
+                {
+                    "name": "녹두전",
+                    "price": 15000,
+                    "is_signature": false,
+                    "pairing_note": "바삭한 녹두빈대떡"
+                },
+                {
+                    "name": "어복쟁반",
+                    "price": 85000,
+                    "is_signature": true,
+                    "pairing_note": "평양식 고기전골로 여러 사람이 나눠 먹기 좋음"
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": true,
+                "characteristics": "맑고 슴슴한 육수",
+                "taste_profile": "맑고 개운함",
+                "saltiness": "보통",
+                "description": "소고기 육수에 동치미 국물을 혼합해 감칠맛이 은은하고 깔끔한 국물을 완성."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 60,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "쫄깃함",
+                    "부드러움",
+                    "탄력"
+                ],
+                "texture": "쫄깃하면서 부드러운 면발",
+                "description": "메밀과 전분을 배합해 쫄깃한 식감을 살린 면발."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": false,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "김치",
+                    "겨자"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 4,
+                "noodle_aroma": 4,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 80,
+                "reviewer_note": "맑은 육수와 쫄깃한 면발이 조화를 이뤄 부드럽게 넘어가는 맛이 특징으로, 강남에서도 수준급 평양냉면을 즐길 수 있다."
+            },
+            "certifications": [
+                {
+                    "type": "blue_ribbon",
+                    "year": 2018,
+                    "detail": "블루리본 서베이 수록"
+                }
+            ],
+            "awards": [
+                "강남 평양냉면 터줏대감"
+            ],
+            "features": [
+                "3대 평양냉면 계보 (의정부파)",
+                "강남권 노포 냉면집"
+            ],
+            "parking": "발렛파킹 가능",
+            "parking_available": false,
+            "reservation": true,
+            "reservation_available": true,
+            "accessibility": "강남구청역 인근",
+            "average_wait_minutes": 10,
+            "recommended_for": [
+                "intermediate",
+                "expert"
+            ],
+            "best_season": "winter",
+            "special_notes": [
+                "평양냉면 이외의 다양한 북한식 메뉴 보유"
+            ],
+            "famous_visitors": [
+                "김무성",
+                "유시민"
+            ],
+            "tags": [
+                "의정부계열",
+                "한우수육",
+                "평양냉면",
+                "의정부파",
+                "본가평양면옥"
+            ],
+            "rating_score": 4.0,
+            "order_options": null
+        },
+        {
+            "id": 6,
+            "slug": "bongmilga-gangnam",
+            "tier": 2,
+            "name": "봉밀가",
+            "name_hanja": null,
+            "name_english": "Bongmilga",
+            "address": "서울 강남구 선릉로 664 건설빌딩",
+            "address_detail": null,
+            "region": "gangnam_seocho",
+            "region_code": "gangnam_seocho",
+            "phone": "507-1360-2305",
+            "hours": {
+                "weekday": "월–토 11:30–21:30 (라스트오더 14:30, 20:30)",
+                "weekend": "월–토 11:30–21:30 (라스트오더 14:30, 20:30)"
+            },
+            "hours_string": "11:00-21:00",
+            "closed_days": [
+                "일요일"
+            ],
+            "closed_days_string": "일요일",
+            "history": {
+                "lineage": "독자적 계열",
+                "story": "이북식 명칭 '평양 메밀 물국수'를 냉면 대신 사용. 19년째 운영 중"
+            },
+            "lineage": "independent",
+            "generation": 1,
+            "origin_story": "강남구청역 부근의 신흥 평양냉면집으로, 모던한 인테리어와 발레파킹 서비스를 제공한다.",
+            "menu": {
+                "signature": "평양메밀물국수",
+                "naengmyeon_price": 14500,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "봉배짜배기",
+                    "제육"
+                ]
+            },
+            "price_range": "₩14,000–₩35,000",
+            "side_menus": [
+                {
+                    "name": "왕만두",
+                    "price": 8000,
+                    "is_signature": true,
+                    "pairing_note": null
+                },
+                {
+                    "name": "비빔냉면",
+                    "price": 14500,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "평양물국수",
+                    "price": 16000,
+                    "is_signature": true,
+                    "pairing_note": "미나리를 추가한 맑은 평양식 국수로 겨울철 별미 메뉴"
+                },
+                {
+                    "name": "평양만두",
+                    "price": 12000,
+                    "is_signature": true,
+                    "pairing_note": "담백한 만두와 슴슴한 평냉 조합이 매니아들 사이에서 호평."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": false,
+                "characteristics": "담백하고 슴슴한 맛, 깊은 풍미",
+                "taste_profile": "삼삼하고 담백한 맛",
+                "saltiness": "약함 (슴슴)",
+                "description": "쇠고기와 동치미 국물을 섞고 간장을 약간 넣어 감칠맛을 높였으며, 얼음이 슬러시처럼 떠 있어 무더운 날씨에 인기다."
+            },
+            "noodle": {
+                "style": "thin_chewy",
+                "buckwheat_ratio": 70,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "탄탄함",
+                    "도톰함",
+                    "쫄깃함",
+                    "두툼함",
+                    "약간 거칠음",
+                    "탱글함"
+                ],
+                "texture": "굵고 부드러움, 꼬들꼬들한 탄성",
+                "description": "메밀 함량은 높지 않지만 탄력 있는 면발로 젊은 층의 입맛을 사로잡는다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": true,
+                "extras": [
+                    "무절임",
+                    "소고기 편육",
+                    "식초",
+                    "김치",
+                    "겨자",
+                    "온육수 기본 제공"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 4,
+                "noodle_aroma": 3,
+                "noodle_texture": 4,
+                "temperature": 5,
+                "overall_balance": 4,
+                "authenticity_score": 82,
+                "reviewer_note": "짭짤하면서도 달달한 육수와 얼음이 조화를 이루며 초보자도 무난히 즐길 수 있다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2023,
+                    "detail": "tvN 수요미식회 소개"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2023,
+                    "detail": "미쉐린 가이드 서울 8년 연속 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 9년 연속 선정"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2024,
+                    "detail": "미쉐린 가이드 서울 9년 연속 빕 구르망 선정"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2025,
+                    "detail": "미쉐린 가이드 서울 10년 연속 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2025,
+                    "detail": "블루리본 서베이 선정"
+                }
+            ],
+            "awards": [
+                "미쉐린 가이드 서울 2024",
+                "블루리본 서베이"
+            ],
+            "features": [
+                "평양냉면 입문자에게 추천",
+                "점심시간 웨이팅 있음"
+            ],
+            "parking": "없음",
+            "parking_available": true,
+            "reservation": false,
+            "reservation_available": true,
+            "accessibility": "강남구청역 인근",
+            "average_wait_minutes": 20,
+            "recommended_for": [
+                "beginner",
+                "intermediate",
+                "expert"
+            ],
+            "best_season": "all",
+            "special_notes": [
+                "단체석 예약 가능",
+                "간판에 '메밀 물국수'로 표기"
+            ],
+            "famous_visitors": [],
+            "tags": [
+                "평양냉면",
+                "강남구청역",
+                "수요미식회",
+                "봉밀가",
+                "현대적"
+            ],
+            "rating_score": 4.0,
+            "order_options": null
+        },
+        {
+            "id": 7,
+            "slug": "bongpiyang-bangi",
+            "tier": 1,
+            "name": "봉피양",
+            "name_hanja": null,
+            "name_english": "Bongpiyang",
+            "address": "서울 송파구 양재대로71길 1-4",
+            "address_detail": "방이동",
+            "region": "songpa_jamsil",
+            "region_code": "songpa_jamsil",
+            "phone": "02-415-5527",
+            "hours": {
+                "weekday": "매일 11:30–22:00 (라스트오더 21:00)",
+                "weekend": "매일 11:30–22:00 (라스트오더 21:00)"
+            },
+            "hours_string": "11:30-21:30",
+            "closed_days": [
+                "연중무휴 (변동 가능)"
+            ],
+            "closed_days_string": "연중무휴 (변동 가능)",
+            "history": {
+                "founded_year": 1995,
+                "founder": "벽제갈비 그룹",
+                "origin": "우래옥 계열",
+                "lineage": "우래옥 계열",
+                "story": "벽제갈비의 냉면 전문 세컨 브랜드. 우래옥에서 60년 근무한 김태원 명장이 기술 전수"
+            },
+            "lineage": "wooraeok",
+            "generation": 1,
+            "origin_story": "옥류관 스타일을 지향하는 현대적인 평양냉면집으로, 숯불돼지불고기와 냉면을 함께 즐길 수 있다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 17000,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "돼지갈비",
+                    "메밀100% 순면"
+                ]
+            },
+            "price_range": "₩16,000–₩50,000",
+            "side_menus": [
+                {
+                    "name": "돼지불고기",
+                    "price": 15000,
+                    "is_signature": true,
+                    "pairing_note": "숯불향 나는 불고기를 냉면과 함께 먹으면 맛이 배가된다."
+                },
+                {
+                    "name": "한우육회",
+                    "price": 25000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "직화 돼지갈비",
+                    "price": 18000,
+                    "is_signature": true,
+                    "pairing_note": "평양식 양념으로 재운 돼지갈비를 숯불에 구워 육즙과 단맛이 살아있어 냉면과 잘 어울림"
+                },
+                {
+                    "name": "한우갈비",
+                    "price": 58000,
+                    "is_signature": true,
+                    "pairing_note": "갈비 식사 후 평양냉면으로 마무리하는 것이 대표 코스."
+                },
+                {
+                    "name": "불고기",
+                    "price": 42000,
+                    "is_signature": false,
+                    "pairing_note": "가족 단위 식사에 적합한 메뉴."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": true,
+                "characteristics": "깊은 육향, 동치미와 육수가 적당히 섞임",
+                "taste_profile": "구수하면서 개운함",
+                "saltiness": "보통",
+                "description": "쇠고기와 동치미 국물에 간장을 더해 감칠맛이 있는 국물이며 현대적 감각을 살렸다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 70,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "쫄깃함",
+                    "매끈함",
+                    "무난한 식감",
+                    "탄력",
+                    "쫄깃"
+                ],
+                "texture": "개운하고 구수함, 탄력 있는 식감",
+                "description": "메밀과 감자전분을 섞어 쫄깃하며 탱탱한 식감을 낸다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "김치",
+                    "겨자·식초 기본 제공",
+                    "흑임자소스"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 4,
+                "noodle_aroma": 3,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 80,
+                "reviewer_note": "한우 돼지불고기와 함께 먹는 코스가 인기이며 국물은 감칠맛이 돋보인다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2022,
+                    "detail": "수요미식회 출연"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 선정"
+                },
+                {
+                    "type": "broadcast",
+                    "year": 2018,
+                    "detail": "생활의 달인 '평양냉면 달인' 편 소개"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2023,
+                    "detail": "블루리본 서베이 한식·냉면 부문 선정"
+                }
+            ],
+            "awards": [
+                "미쉐린 가이드 서울 2018~2024",
+                "블루리본 서베이"
+            ],
+            "features": [
+                "벽제갈비 계열 냉면",
+                "모던 평양냉면"
+            ],
+            "parking": "발렛 가능",
+            "parking_available": false,
+            "reservation": false,
+            "reservation_available": true,
+            "accessibility": "방이역 4번 출구 도보 10분",
+            "average_wait_minutes": 15,
+            "recommended_for": [
+                "beginner",
+                "intermediate"
+            ],
+            "best_season": "all",
+            "special_notes": [
+                "명절 연휴에 한정 메뉴 출시"
+            ],
+            "famous_visitors": [
+                "백종원"
+            ],
+            "tags": [
+                "벽제갈비",
+                "평양냉면",
+                "불고기",
+                "모던"
+            ],
+            "rating_score": 4.3,
+            "order_options": null
+        },
+        {
+            "id": 8,
+            "slug": "seogyeong-dorak-junggu",
+            "tier": 2,
+            "name": "서경도락",
+            "name_hanja": null,
+            "name_english": "Seokyung Dorak",
+            "address": "서울 마포구 삼개로 21",
+            "address_detail": "도화동 204-9",
+            "region": "mapo_yeouido",
+            "region_code": "mapo_yeouido",
+            "phone": "02-702-1092",
+            "hours": {
+                "weekday": "매일 11:00~22:00",
+                "weekend": "매일 11:00~22:00"
+            },
+            "hours_string": "11:30-21:00",
+            "closed_days": [
+                "명절"
+            ],
+            "closed_days_string": "연중무휴 (명절 제외)",
+            "history": {
+                "lineage": "독자적 계열",
+                "story": "숯불갈비와 평양냉면 전문점. 성수점, 강남점 등 분점 운영"
+            },
+            "lineage": "independent",
+            "generation": 1,
+            "origin_story": "마포와 성수 등에서 불고기와 평양냉면을 결합한 컨셉으로 운영된 식당. 현재 성수점은 폐점하였으나 냉면과 어복쟁반이 유명했다",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 12000,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "냉제육",
+                    "한돈수제갈비"
+                ]
+            },
+            "price_range": "₩14,000–₩130,000",
+            "side_menus": [
+                {
+                    "name": "어복쟁반(대)",
+                    "price": 130000,
+                    "is_signature": true,
+                    "pairing_note": "대가족이 함께 나누어 먹는 육수 전골"
+                },
+                {
+                    "name": "평양만두",
+                    "price": 8000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "직화 평양불고기",
+                    "price": 15000,
+                    "is_signature": true,
+                    "pairing_note": "달지 않고 국물 없이 구워내는 전통 평양식 소불고기로 냉면과 함께 세트로 즐길 수 있다"
+                },
+                {
+                    "name": "한식 코스",
+                    "price": 60000,
+                    "is_signature": true,
+                    "pairing_note": "코스 마지막에 냉면이 나오는 구성."
+                }
+            ],
+            "broth": {
+                "base": "beef_only",
+                "clarity_level": 3,
+                "depth_level": 4,
+                "saltiness_level": 4,
+                "beef_aroma_level": 3,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": false,
+                "characteristics": "깔끔한 국물, 육향이 느껴짐",
+                "taste_profile": "담백하고 깔끔",
+                "saltiness": "강한 편",
+                "description": "소고기 육수에 간장을 넣어 감칠맛을 높였으며 고기 고명이 풍부하다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 60,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "탄력",
+                    "쫄깃",
+                    "말끔함",
+                    "섬세함",
+                    "메밀향",
+                    "무난함"
+                ],
+                "texture": "투명하고 얇은 편, 툭툭 끊김",
+                "description": "면은 전분 비율이 높아 탄력이 있으며 양이 많다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": true,
+                "extras": [
+                    "플레이팅이 매우 정갈한 편",
+                    "얼갈이 배추김치",
+                    "고추가루"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 4,
+                "noodle_aroma": 3,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 3,
+                "authenticity_score": 70,
+                "reviewer_note": "고기 고명이 많고 국물이 짭짤해 평냉 초심자에게도 무난하지만 전통적인 맛과는 다소 거리가 있다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2021,
+                    "detail": "SBS 맛있는 녀석들 '직화 소불고기 평양냉면' 편 소개"
+                }
+            ],
+            "awards": [
+                "생생정보통 출연"
+            ],
+            "features": [
+                "가성비 좋은 평양냉면",
+                "숯불갈비와 함께 먹기 좋음"
+            ],
+            "parking": "가게 주차장",
+            "parking_available": false,
+            "reservation": false,
+            "reservation_available": true,
+            "accessibility": "마포역 인근",
+            "average_wait_minutes": 10,
+            "recommended_for": [
+                "beginner",
+                "intermediate"
+            ],
+            "best_season": "winter",
+            "special_notes": [],
+            "famous_visitors": [],
+            "tags": [
+                "직화불고기",
+                "평양냉면",
+                "서경도락",
+                "성수점"
+            ],
+            "rating_score": 4.0,
+            "order_options": null
+        },
+        {
+            "id": 9,
+            "slug": "서관면옥",
+            "tier": 2,
+            "name": "서관면옥",
+            "name_hanja": null,
+            "name_english": "Seogwan Myeonok",
+            "address": "서울 서초구 서운로 11길 12-16",
+            "address_detail": "서초동 1319-11",
+            "region": "gangnam_seocho",
+            "region_code": "gangnam_seocho",
+            "phone": "02-522-8666",
+            "hours": {
+                "weekday": "매일 11:30–21:00",
+                "weekend": "매일 11:30–21:00"
+            },
+            "hours_string": "11:30-21:00 (브레이크타임 15:00-17:00)",
+            "closed_days": [
+                "일요일"
+            ],
+            "closed_days_string": "일요일",
+            "history": {
+                "founded_year": 2013,
+                "founder": "박광열",
+                "origin": "진남포면옥 등 연구",
+                "lineage": "독자적 계열",
+                "story": "여러 평양냉면집을 연구한 젊은 사장이 개업한 평양냉면 전문점"
+            },
+            "lineage": "independent",
+            "generation": 1,
+            "origin_story": "2010년대에 시작한 평양냉면 전문점으로, 간이 약간 센 국물과 굵은 면발로 개성 있는 스타일을 선보인다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 13000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "소갈비",
+                    "평양온반"
+                ]
+            },
+            "price_range": "₩14,000–₩55,000",
+            "side_menus": [
+                {
+                    "name": "녹두전",
+                    "price": 15000,
+                    "is_signature": true,
+                    "pairing_note": "겉은 바삭, 속은 촉촉한 녹두빈대떡"
+                },
+                {
+                    "name": "접시만두",
+                    "price": 12000,
+                    "is_signature": true,
+                    "pairing_note": "육즙이 풍부한 만두"
+                },
+                {
+                    "name": "어복쟁반 (소)",
+                    "price": 55000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "소갈비",
+                    "price": 50000,
+                    "is_signature": true,
+                    "pairing_note": "숯불에 구운 양념 소갈비로 냉면 전 식사로 즐기기 좋음"
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 3,
+                "depth_level": 4,
+                "saltiness_level": 4,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": true,
+                "characteristics": "다소 짭짤하고 진한 육수",
+                "taste_profile": "달큰한 편",
+                "saltiness": "강함",
+                "description": "소고기 육수에 동치미 국물을 더해 감칠맛이 강하고 짭짤한 육수를 낸다."
+            },
+            "noodle": {
+                "style": "thin_chewy",
+                "buckwheat_ratio": 50,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "도톰함",
+                    "쫄깃함",
+                    "약간 거침"
+                ],
+                "texture": "두툼하고 질긴 식감",
+                "description": "면발이 굵고 탄성이 강하여 식감이 독특하다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": false,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "부추무침 약간",
+                    "겨자"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 4,
+                "noodle_aroma": 3,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 3,
+                "authenticity_score": 68,
+                "reviewer_note": "전통적인 평양냉면 맛과는 차이가 있으나 색다른 풍미로 젊은 층에게 어필한다."
+            },
+            "certifications": [],
+            "awards": [
+                "서초동 평양냉면 맛집"
+            ],
+            "features": [
+                "젊은 감각의 평양냉면",
+                "남다른 굵은 면발"
+            ],
+            "parking": "발렛파킹 가능",
+            "parking_available": true,
+            "reservation": true,
+            "reservation_available": true,
+            "accessibility": "서초동 맛집 거리 인근",
+            "average_wait_minutes": 15,
+            "recommended_for": [
+                "intermediate",
+                "expert"
+            ],
+            "best_season": "winter",
+            "special_notes": [],
+            "famous_visitors": [
+                "노회찬"
+            ],
+            "tags": [
+                "서초동",
+                "녹두전",
+                "평양냉면",
+                "두툼면"
+            ],
+            "rating_score": 4.2,
+            "order_options": null
+        },
+        {
+            "id": 10,
+            "slug": "wooraeok-euljiro",
+            "tier": 1,
+            "name": "우래옥",
+            "name_hanja": "又來屋",
+            "name_english": "Woo Lae Oak",
+            "address": "서울 중구 창경궁로 62-29",
+            "address_detail": "주교동",
+            "region": "jongno_euljiro",
+            "region_code": "jongno_euljiro",
+            "phone": "02-2265-0151",
+            "hours": {
+                "weekday": "화–일 11:30–21:00",
+                "weekend": "화–일 11:30–21:00"
+            },
+            "hours_string": "11:30-21:00 (라스트오더 20:40)",
+            "closed_days": [
+                "월요일"
+            ],
+            "closed_days_string": "월요일",
+            "history": {
+                "founded_year": 1946,
+                "founder": "김희순",
+                "origin": "평안남도 대동군 대보면 용인리",
+                "lineage": "우래옥 계열 본산",
+                "story": "1946년 서북관으로 개업, 6.25 때 피난 후 휴전 시 우래옥으로 재개업. 상호는 '다시 찾아온 집'이라는 의미"
+            },
+            "lineage": "wooraeok",
+            "generation": 3,
+            "origin_story": "일제강점기 이후에 문을 연 평양 출신 가문이 운영하며 70여 년간 평양냉면과 숯불불고기를 함께 선보이는 노포이다.",
+            "menu": {
+                "signature": "전통평양냉면",
+                "naengmyeon_price": 16000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": false,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "갈비탕",
+                    "김치말이냉면",
+                    "갈비",
+                    "육회",
+                    "육개장",
+                    "불고기"
+                ]
+            },
+            "price_range": "₩15,000–₩40,000",
+            "side_menus": [
+                {
+                    "name": "쇠불고기",
+                    "price": 42000,
+                    "is_signature": true,
+                    "pairing_note": "달큰한 불고기와 냉면을 함께 먹으면 맛이 배가된다."
+                },
+                {
+                    "name": "편육",
+                    "price": 30000,
+                    "is_signature": false,
+                    "pairing_note": "쫄깃한 수육을 냉면과 곁들이면 식감이 다채로워진다."
+                },
+                {
+                    "name": "한우불고기",
+                    "price": 35000,
+                    "is_signature": true,
+                    "pairing_note": "불고기를 구워 평양냉면과 함께 즐기는 전통 메뉴로 별미"
+                },
+                {
+                    "name": "불고기",
+                    "price": 42000,
+                    "is_signature": true,
+                    "pairing_note": "불고기 2인분과 냉면 조합이 가장 인기 있는 주문 패턴으로 알려져 있음."
+                },
+                {
+                    "name": "갈비",
+                    "price": 53000,
+                    "is_signature": false,
+                    "pairing_note": "진한 소갈비와 냉면을 함께 먹는 고기·면 조합에 적합."
+                },
+                {
+                    "name": "김치말이냉면",
+                    "price": 16000,
+                    "is_signature": false,
+                    "pairing_note": "겨울철 계절 메뉴 겸 히든 메뉴로, 더 상큼한 베리에이션을 원할 때 선택."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 5,
+                "saltiness_level": 3,
+                "beef_aroma_level": 5,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": false,
+                "characteristics": "묵직하고 깊은 육향, 간이 센 편",
+                "taste_profile": "자극적인 편, 입문자에게 적합",
+                "saltiness": "강함",
+                "description": "쇠고기와 동치미 육수를 적절히 섞어 깊고 담백한 맛을 내며, 맑은 색감과 진한 고기향이 특징이다."
+            },
+            "noodle": {
+                "style": "thin_crumbly",
+                "buckwheat_ratio": 80,
+                "thickness": "thin",
+                "homemade": true,
+                "texture_keywords": [
+                    "탄탄함",
+                    "살짝 거친 식감",
+                    "부드러움",
+                    "탄력",
+                    "거칠음",
+                    "메밀향"
+                ],
+                "texture": "구수한 맛",
+                "description": "손반죽으로 뽑아낸 면은 메밀 함량이 높아 부드럽고 쉽게 풀어지며 향이 좋다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "편육 넉넉",
+                    "백김치",
+                    "백김치 겉절이",
+                    "열무김치",
+                    "오이지"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 5,
+                "noodle_aroma": 5,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 5,
+                "authenticity_score": 93,
+                "reviewer_note": "맑고 깊은 육수와 메밀향 진한 면발의 조화가 훌륭하며 평양냉면의 정석으로 꼽힌다."
+            },
+            "certifications": [],
+            "awards": [],
+            "features": [],
+            "parking": "",
+            "parking_available": null,
+            "reservation": null,
+            "reservation_available": null,
+            "accessibility": "",
+            "average_wait_minutes": null,
+            "recommended_for": [],
+            "best_season": null,
+            "special_notes": [],
+            "famous_visitors": [],
+            "tags": []
+        },
+        {
+            "id": 11,
+            "slug": "yujin-sikdang-euljiro",
+            "tier": 2,
+            "name": "유진식당",
+            "name_hanja": null,
+            "name_english": "Yujin Sikdang",
+            "address": "서울 중구 을지로 16",
+            "address_detail": "을지로3가 323-1",
+            "region": "jongno_euljiro",
+            "region_code": "jongno_euljiro",
+            "phone": "02-2275-0700",
+            "hours": {
+                "weekday": "월–금 11:00–20:00",
+                "weekend": "토 11:00–20:00"
+            },
+            "hours_string": "11:00-20:00",
+            "closed_days": [
+                "일요일"
+            ],
+            "closed_days_string": "월요일",
+            "history": {
+                "founded_year": 1987,
+                "founder": "김은규",
+                "origin": "자체 개발",
+                "lineage": "독자적 계열",
+                "story": "둘째 아들 김윤상 대표가 운영 중. 평양냉면 외에 백암순대국이 인기"
+            },
+            "lineage": "independent",
+            "generation": 2,
+            "origin_story": "을지로3가역 인근 골목에 위치한 작은 식당으로, 평양냉면과 순대국밥을 함께 판매한다.",
+            "menu": {
+                "signature": "물냉면",
+                "naengmyeon_price": 11000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": false,
+                "other_menus": [
+                    "백암순대국",
+                    "철판제육볶음"
+                ]
+            },
+            "price_range": "₩11,000–₩30,000",
+            "side_menus": [
+                {
+                    "name": "찐만두",
+                    "price": 8000,
+                    "is_signature": true,
+                    "pairing_note": "입가심으로 즐기기 좋은 담백한 만두."
+                },
+                {
+                    "name": "백암순대국",
+                    "price": 9000,
+                    "is_signature": true,
+                    "pairing_note": "냉면 다음으로 인기 있는 순대국밥."
+                },
+                {
+                    "name": "수육(소)",
+                    "price": 25000,
+                    "is_signature": false,
+                    "pairing_note": null
+                }
+            ],
+            "broth": {
+                "base": "dongchimi_main",
+                "clarity_level": 4,
+                "depth_level": 3,
+                "saltiness_level": 3,
+                "beef_aroma_level": 2,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": true,
+                "characteristics": "시원하고 심심한 동치미 국물감",
+                "taste_profile": "새콤달콤한 맛",
+                "saltiness": "보통",
+                "description": "동치미 국물을 사용해 냉면 국물이 담백하고 시원하며 초보자도 부담 없이 먹을 수 있다."
+            },
+            "noodle": {
+                "style": "thin_crumbly",
+                "buckwheat_ratio": 60,
+                "thickness": "thin",
+                "homemade": true,
+                "texture_keywords": [
+                    "메밀향",
+                    "부드러움",
+                    "훌훌 넘어감"
+                ],
+                "texture": "부드럽게 풀어지는 면발",
+                "description": "메밀을 일부 사용해 부드럽고 쉽게 끊어지는 면발."
+            },
+            "toppings": {
+                "has_pyeonyuk": false,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "김치",
+                    "겨자",
+                    "식초"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 3,
+                "noodle_aroma": 3,
+                "noodle_texture": 3,
+                "temperature": 4,
+                "overall_balance": 3,
+                "authenticity_score": 65,
+                "reviewer_note": "냉면 전문점이라기보다 식당 겸 냉면집으로, 냉면 맛은 무난하지만 특별히 두드러지진 않는다."
+            },
+            "certifications": [],
+            "awards": [],
+            "features": [
+                "순대국 명가"
+            ],
+            "parking": "없음",
+            "parking_available": false,
+            "reservation": false,
+            "reservation_available": false,
+            "accessibility": "을지로3가역 8번 출구 도보 2분",
+            "average_wait_minutes": 5,
+            "recommended_for": [],
+            "best_season": null,
+            "special_notes": [],
+            "famous_visitors": [],
+            "tags": [
+                "을지로",
+                "순대국"
+            ],
+            "rating_score": 4.3,
+            "order_options": null
+        },
+        {
+            "id": 12,
+            "slug": "eulmildae-mapo",
+            "tier": 1,
+            "name": "을밀대",
+            "name_hanja": "乙密臺",
+            "name_english": "Eulmildae",
+            "address": "서울 마포구 숭문길 24",
+            "address_detail": "염리동",
+            "region": "mapo_yeouido",
+            "region_code": "mapo_yeouido",
+            "phone": "02-717-1922",
+            "hours": {
+                "weekday": "매일 11:00–22:00",
+                "weekend": "매일 11:00–22:00"
+            },
+            "hours_string": "11:00-22:00",
+            "closed_days": [
+                "명절"
+            ],
+            "closed_days_string": "비정기 휴무 (연중무휴에 가까우나 변동 가능)",
+            "history": {
+                "founded_year": 1971,
+                "founder": "김인주",
+                "origin": "평안도 안주",
+                "lineage": "을밀대 계열 (독자적)",
+                "story": "북한 평양의 삼국시대 누각 '을밀대'에서 상호를 따옴. 50년 이상 전통"
+            },
+            "lineage": "eulmildae",
+            "generation": 2,
+            "origin_story": "1970년대에 설립된 노포로, 슬러시처럼 얼린 육수와 두툼한 양지편육이 특징이며 대중적 감칠맛으로 유명하다",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 16000,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": false,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "홍어",
+                    "녹두전",
+                    "회냉면",
+                    "양지탕밥"
+                ]
+            },
+            "price_range": "₩16,000–₩40,000",
+            "side_menus": [
+                {
+                    "name": "편육",
+                    "price": 35000,
+                    "is_signature": true,
+                    "pairing_note": "육수가 얼어있어 따뜻한 편육을 곁들이면 좋다."
+                },
+                {
+                    "name": "만두",
+                    "price": 10000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "녹두전",
+                    "price": 10000,
+                    "is_signature": true,
+                    "pairing_note": "을밀대 시그니처 안주로 바삭하고 고소하여 냉면과 곁들이기 좋음"
+                },
+                {
+                    "name": "수육",
+                    "price": 35000,
+                    "is_signature": false,
+                    "pairing_note": "진한 온육수와 함께 곁들이면 고기집 같은 만족감을 주는 조합."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 3,
+                "depth_level": 4,
+                "saltiness_level": 4,
+                "beef_aroma_level": 4,
+                "has_slush_ice": true,
+                "uses_soy_sauce": true,
+                "dongchimi": false,
+                "characteristics": "은은하면서도 산뜻한 육향, 마늘향과 후추향",
+                "taste_profile": "살얼음이 낀 육수가 특징",
+                "saltiness": "강한 편",
+                "description": "쇠고기와 동치미 국물을 섞고 간장을 약간 넣어 감칠맛을 높였으며, 얼음이 슬러시처럼 떠 있어 무더운 날씨에 인기다."
+            },
+            "noodle": {
+                "style": "thin_chewy",
+                "buckwheat_ratio": 60,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "탄탄함",
+                    "도톰함",
+                    "쫄깃함",
+                    "두툼함",
+                    "약간 거칠음",
+                    "탱글함"
+                ],
+                "texture": "굵고 부드러움, 꼬들꼬들한 탄성",
+                "description": "메밀 함량은 높지 않지만 탄력 있는 면발로 젊은 층의 입맛을 사로잡는다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": false,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": true,
+                "extras": [
+                    "무절임",
+                    "소고기 편육",
+                    "식초",
+                    "김치",
+                    "겨자",
+                    "온육수 기본 제공"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 4,
+                "noodle_aroma": 3,
+                "noodle_texture": 4,
+                "temperature": 5,
+                "overall_balance": 4,
+                "authenticity_score": 82,
+                "reviewer_note": "짭짤하면서도 달달한 육수와 얼음이 조화를 이루며 초보자도 무난히 즐길 수 있다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2023,
+                    "detail": "tvN 수요미식회 소개"
+                },
+                {
+                    "type": "michelin_guide",
+                    "year": 2024,
+                    "detail": "미쉐린 가이드 서울 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 수록"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 선정 맛집"
+                },
+                {
+                    "type": "michelin_guide",
+                    "year": 2025,
+                    "detail": "미쉐린 가이드 서울 2025 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2025,
+                    "detail": "블루리본 서베이 선정"
+                }
+            ],
+            "awards": [
+                "tvN 수요미식회 평양냉면 편",
+                "미쉐린 가이드 서울 빕 구르망"
+            ],
+            "features": [
+                "슬러시 육수의 원조",
+                "평양냉면계의 국민 맛집"
+            ],
+            "parking": "주차 가능",
+            "parking_available": true,
+            "reservation": false,
+            "reservation_available": true,
+            "accessibility": "공덕역 인근",
+            "average_wait_minutes": 30,
+            "recommended_for": [
+                "beginner",
+                "intermediate"
+            ],
+            "best_season": "summer",
+            "special_notes": [
+                "홍어회 등 안주류도 인기",
+                "줄 서서 먹는 맛집"
+            ],
+            "famous_visitors": [],
+            "tags": [
+                "슬러시육수",
+                "을밀대",
+                "녹두전",
+                "평양냉면"
+            ],
+            "rating_score": 4.1,
+            "order_options": null
+        },
+        {
+            "id": 13,
+            "slug": "eulji-myeonok-nakwon",
+            "tier": 1,
+            "name": "을지면옥",
+            "name_hanja": null,
+            "name_english": "Eulji Myeonok",
+            "address": "서울 종로구 삼일대로30길 12",
+            "address_detail": "낙원동 55-1",
+            "region": "jongno_euljiro",
+            "region_code": "jongno_euljiro",
+            "phone": "02-2266-7052",
+            "hours": {
+                "weekday": "월–토 11:00–21:00 (브레이크타임 15:00–17:00)",
+                "weekend": "월–토 11:00–21:00 (브레이크타임 15:00–17:00)"
+            },
+            "hours_string": "11:00-20:00",
+            "closed_days": [
+                "일요일"
+            ],
+            "closed_days_string": "일요일",
+            "history": {
+                "founded_year": 1985,
+                "founder": "의정부 평양면옥 창업주의 둘째 딸",
+                "origin": "의정부 평양면옥 계열",
+                "lineage": "의정부파",
+                "story": "세운지구 재개발로 2022년 철거 후 2024년 낙원동에서 재오픈"
+            },
+            "lineage": "uijeongbu",
+            "generation": 2,
+            "origin_story": "의정부평양면옥 둘째 딸이 운영하던 식당으로 재개발 후 낙원동에서 영업을 재개했다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 15000,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": []
+            },
+            "price_range": "₩15,000–₩35,000",
+            "side_menus": [
+                {
+                    "name": "만두국",
+                    "price": 15000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "비빔냉면",
+                    "price": 15000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "냉 제육",
+                    "price": 30000,
+                    "is_signature": true,
+                    "pairing_note": "양념장에 버무린 차가운 돼지고기 편육으로 냉면과 함께 먹으면 냉면 맛을 풍부하게 해준다"
+                },
+                {
+                    "name": "물만두",
+                    "price": 9000,
+                    "is_signature": true,
+                    "pairing_note": "의정부파 특유의 담백한 만두와 함께 즐기기 좋음."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": false,
+                "characteristics": "깊고 진한 육향",
+                "taste_profile": "적당하게 간이 되어 있음",
+                "saltiness": "약함 (슴슴)",
+                "description": "소고기 육수에 동치미 국물을 섞어 깔끔하면서도 은은한 단맛이 느껴진다."
+            },
+            "noodle": {
+                "style": "thin_crumbly",
+                "buckwheat_ratio": 80,
+                "thickness": "thin",
+                "homemade": true,
+                "texture_keywords": [
+                    "부드러움",
+                    "탄력",
+                    "거칠음",
+                    "메밀향",
+                    "잘 끊어짐"
+                ],
+                "texture": "실타래처럼 가느다란 면",
+                "description": "의정부계열답게 메밀 함량이 높아 부드럽고 고소하다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "열무김치",
+                    "평양 대동강 사진으로 유명했던 옛 인테리어를 계승한 분위기"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 4,
+                "noodle_aroma": 4,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 88,
+                "reviewer_note": "망원동에서 낙원동으로 이전해도 변함없는 맛을 유지하며 균형감이 뛰어나다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2023,
+                    "detail": "다수의 TV 프로그램 소개"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 수록"
+                },
+                {
+                    "type": "broadcast",
+                    "year": 2024,
+                    "detail": "재오픈 관련 기사·방송 다수"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2024,
+                    "detail": "미쉐린 가이드 서울 빕 구르망 선정"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2025,
+                    "detail": "미쉐린 가이드 서울 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2025,
+                    "detail": "블루리본 서베이 선정"
+                }
+            ],
+            "awards": [
+                "서울 3대/4대 평양냉면 명가"
+            ],
+            "features": [
+                "서울 3대/4대 평양냉면 중 하나",
+                "2024년 재오픈 첫날부터 문전성시"
+            ],
+            "parking": "없음",
+            "parking_available": false,
+            "reservation": false,
+            "reservation_available": false,
+            "accessibility": "종로3가역 인근, 낙원악기상가 근처",
+            "average_wait_minutes": 30,
+            "recommended_for": [
+                "intermediate",
+                "expert"
+            ],
+            "best_season": "summer",
+            "special_notes": [
+                "2022년 재개발로 철거되었다가 2024년 복원 오픈",
+                "매장 내부에 평양 대동강 사진 등 과거 인테리어 재현"
+            ],
+            "famous_visitors": [
+                "이낙연",
+                "박찬일"
+            ],
+            "tags": [
+                "의정부계열",
+                "낙원동",
+                "평양냉면",
+                "을지면옥",
+                "재오픈"
+            ],
+            "rating_score": 4.6,
+            "order_options": null
+        },
+        {
+            "id": 14,
+            "slug": "uijeongbu-pyongyangmyeonok",
+            "tier": 2,
+            "name": "의정부평양면옥",
+            "name_hanja": null,
+            "name_english": "Uijeongbu Pyeongyang Myeonok",
+            "address": "경기도 의정부시 태평로136번길 25",
+            "address_detail": "의정부동 177-9",
+            "region": "gyeonggi_north",
+            "region_code": "gyeonggi_north",
+            "phone": "031-872-4508",
+            "hours": {
+                "weekday": "매일 11:00–21:00 (브레이크타임 15:00–17:00)",
+                "weekend": "매일 11:00–21:00 (브레이크타임 15:00–17:00)"
+            },
+            "hours_string": "11:00-21:00",
+            "closed_days": [
+                "일요일"
+            ],
+            "closed_days_string": "일요일",
+            "history": {
+                "founded_year": 1968,
+                "founder": "최호진",
+                "origin": "평안남도 사리원",
+                "lineage": "의정부파 원조",
+                "story": "1968년 의정부에서 개업한 뒤 1970년대부터 성업. 3대째 가업 중이며 냉면 외 어복쟁반과 제육이 인기"
+            },
+            "lineage": "jangchungdong",
+            "generation": 3,
+            "origin_story": "의정부시의 노포 평양냉면집으로, 현존 의정부파 평양냉면의 효시 격인 곳이다. 2018년 미쉐린 가이드에 소개되며 재조명받았다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 13000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "수육"
+                ]
+            },
+            "price_range": "₩14,000–₩70,000",
+            "side_menus": [
+                {
+                    "name": "어복쟁반",
+                    "price": 90000,
+                    "is_signature": true,
+                    "pairing_note": "여러 사람이 나눠 먹는 전골로 냉면과 함께 즐기기 좋다."
+                },
+                {
+                    "name": "돼지제육",
+                    "price": 20000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "한우 수육",
+                    "price": 30000,
+                    "is_signature": true,
+                    "pairing_note": "얇게 썬 양지머리 편육을 냉면과 곁들이면 담백한 풍미를 더해준다"
+                },
+                {
+                    "name": "만두국",
+                    "price": 12000,
+                    "is_signature": true,
+                    "pairing_note": "고기와 채소의 균형이 좋은 만두가 냉면과 함께 흔히 주문됨."
+                },
+                {
+                    "name": "편육",
+                    "price": 25000,
+                    "is_signature": false,
+                    "pairing_note": "평양식 냉면과 함께 즐기기 좋은 전통 조합."
+                },
+                {
+                    "name": "수육",
+                    "price": 35000,
+                    "is_signature": true,
+                    "pairing_note": "부드럽게 삶아낸 이북식 수육으로, 냉면 전에 곁들이기 좋음."
+                },
+                {
+                    "name": "녹두전",
+                    "price": 15000,
+                    "is_signature": false,
+                    "pairing_note": "전·족발 거리와 함께 주문 시 술안주로 좋다는 평."
+                }
+            ],
+            "broth": {
+                "base": "beef_only",
+                "clarity_level": 3,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": true,
+                "characteristics": "맑고 담백한 육수, 동치미 블렌딩으로 알싸한 포인트",
+                "taste_profile": "한국 평양냉면의 기준이 된 맛",
+                "saltiness": "약함 (슴슴)",
+                "description": "소뼈와 양지로 끓인 육수에 간장을 더해 고소하고 감칠맛이 나는 국물이며 동치미의 새콤함은 적다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 70,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "부드럽게 끊어짐",
+                    "메밀향 강함",
+                    "부드러움",
+                    "쫄깃",
+                    "균형잡힌 식감",
+                    "구수함",
+                    "메밀향",
+                    "고슬고슬"
+                ],
+                "texture": "쉽게 툭툭 끊어짐, 부드럽게 넘어감",
+                "description": "메밀과 전분을 섞어 쫄깃하면서도 쉽게 끊어지지 않는 식감을 낸다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "식초",
+                    "김가루 약간",
+                    "겨자",
+                    "소고기 제육",
+                    "김가루 소량"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 4,
+                "noodle_aroma": 4,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 85,
+                "reviewer_note": "양지고기 육수의 진한 맛과 쫄깃한 면발이 호평을 받으며 전통적인 평양냉면을 느낄 수 있다."
+            },
+            "certifications": [],
+            "awards": [],
+            "features": [],
+            "parking": "",
+            "parking_available": null,
+            "reservation": null,
+            "reservation_available": null,
+            "accessibility": "",
+            "average_wait_minutes": null,
+            "recommended_for": [],
+            "best_season": null,
+            "special_notes": [],
+            "famous_visitors": [],
+            "tags": []
+        },
+        {
+            "id": 15,
+            "slug": "uijeongbu-pyeongyang",
+            "tier": 1,
+            "name": "장충동평양면옥",
+            "name_hanja": null,
+            "name_english": "Pyeongyang Myeonok Uijeongbu",
+            "address": "서울 중구 장충단로 207",
+            "address_detail": null,
+            "region": "jongno_euljiro",
+            "region_code": "gyeonggi_north",
+            "phone": "02-2267-7784",
+            "hours": {
+                "weekday": "화–일 11:00–21:30 (라스트오더 21:00)",
+                "weekend": "화–일 11:00–21:30 (라스트오더 21:00)"
+            },
+            "hours_string": "11:00-20:30 (브레이크타임 있음, 변동 가능)",
+            "closed_days": [
+                "일요일",
+                "월요일",
+                "매월 특정일"
+            ],
+            "closed_days_string": "화요일",
+            "history": {
+                "founded_year": 1969,
+                "founder": "홍영남, 김경필 부부",
+                "origin": "평양 보절정 근처 보실면옥",
+                "lineage": "의정부파 원조",
+                "story": "1969년 연천 전곡면에서 시작, 1987년 의정부 이전. 북에 가까운 곳에서 시작 (곧 돌아갈 줄 알고)"
+            },
+            "lineage": "jangchungdong",
+            "generation": 3,
+            "origin_story": "장충동 계열의 본산으로 3대째 내려오는 노포이며 평양냉면과 돼지고기 제육, 어복쟁반으로 명성이 높다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 14000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "수육"
+                ]
+            },
+            "price_range": "₩15,000–₩70,000",
+            "side_menus": [
+                {
+                    "name": "어복쟁반",
+                    "price": 90000,
+                    "is_signature": true,
+                    "pairing_note": "여러 사람이 나눠 먹는 전골로 냉면과 함께 즐기기 좋다."
+                },
+                {
+                    "name": "돼지제육",
+                    "price": 20000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "한우 수육",
+                    "price": 30000,
+                    "is_signature": true,
+                    "pairing_note": "얇게 썬 양지머리 편육을 냉면과 곁들이면 담백한 풍미를 더해준다"
+                },
+                {
+                    "name": "만두국",
+                    "price": 12000,
+                    "is_signature": true,
+                    "pairing_note": "고기와 채소의 균형이 좋은 만두가 냉면과 함께 흔히 주문됨."
+                },
+                {
+                    "name": "편육",
+                    "price": 25000,
+                    "is_signature": false,
+                    "pairing_note": "평양식 냉면과 함께 즐기기 좋은 전통 조합."
+                },
+                {
+                    "name": "수육",
+                    "price": 35000,
+                    "is_signature": true,
+                    "pairing_note": "부드럽게 삶아낸 이북식 수육으로, 냉면 전에 곁들이기 좋음."
+                },
+                {
+                    "name": "녹두전",
+                    "price": 15000,
+                    "is_signature": false,
+                    "pairing_note": "전·족발 거리와 함께 주문 시 술안주로 좋다는 평."
+                }
+            ],
+            "broth": {
+                "base": "beef_only",
+                "clarity_level": 3,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": true,
+                "characteristics": "맑고 담백한 육수, 동치미 블렌딩으로 알싸한 포인트",
+                "taste_profile": "한국 평양냉면의 기준이 된 맛",
+                "saltiness": "약함 (슴슴)",
+                "description": "소뼈와 양지로 끓인 육수에 간장을 더해 고소하고 감칠맛이 나는 국물이며 동치미의 새콤함은 적다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 70,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "부드럽게 끊어짐",
+                    "메밀향 강함",
+                    "부드러움",
+                    "쫄깃",
+                    "균형잡힌 식감",
+                    "구수함",
+                    "메밀향",
+                    "고슬고슬"
+                ],
+                "texture": "쉽게 툭툭 끊어짐, 부드럽게 넘어감",
+                "description": "메밀과 전분을 섞어 쫄깃하면서도 쉽게 끊어지지 않는 식감을 낸다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "식초",
+                    "김가루 약간",
+                    "겨자",
+                    "소고기 제육",
+                    "김가루 소량"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 4,
+                "noodle_aroma": 4,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 85,
+                "reviewer_note": "양지고기 육수의 진한 맛과 쫄깃한 면발이 호평을 받으며 전통적인 평양냉면을 느낄 수 있다."
+            },
+            "certifications": [],
+            "awards": [],
+            "features": [],
+            "parking": "",
+            "parking_available": null,
+            "reservation": null,
+            "reservation_available": null,
+            "accessibility": "",
+            "average_wait_minutes": null,
+            "recommended_for": [],
+            "best_season": null,
+            "special_notes": [],
+            "famous_visitors": [],
+            "tags": []
+        },
+        {
+            "id": 16,
+            "slug": "jeongin-myeonok-yeouido",
+            "tier": 2,
+            "name": "정인면옥",
+            "name_hanja": null,
+            "name_english": "Jungin Myeonok",
+            "address": "서울 영등포구 국회대로76길 10 기독교한국침례회총회빌딩 1층",
+            "address_detail": "여의도동 13-1",
+            "region": "mapo_yeouido",
+            "region_code": "mapo_yeouido",
+            "phone": "02-2683-2615",
+            "hours": {
+                "weekday": "월–토 11:00–21:30 (브레이크타임 15:00–17:00)",
+                "weekend": "월–토 11:00–21:30 (브레이크타임 15:00–17:00)"
+            },
+            "hours_string": "백화점 영업시간과 동일",
+            "closed_days": [
+                "명절"
+            ],
+            "closed_days_string": "연중무휴 (명절 제외)",
+            "history": {
+                "founded_year": 1972,
+                "origin": "홍제동에서 시작",
+                "lineage": "독자적 계열",
+                "story": "1972년 홍제동에서 시작, 경기도 광명 거쳐 2014년 여의도점 오픈"
+            },
+            "lineage": "independent",
+            "generation": 2,
+            "origin_story": "여의도에서 30여 년간 영업해 온 평양냉면집으로 깔끔한 육수와 널찍한 홀, 다양한 한우 요리를 제공한다",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 15000,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "100% 메밀순면"
+                ]
+            },
+            "price_range": "₩15,000–₩70,000",
+            "side_menus": [
+                {
+                    "name": "한우 아롱사태 수육",
+                    "price": 42000,
+                    "is_signature": true,
+                    "pairing_note": "차갑게 식힌 한우 수육을 냉면과 함께 즐기면 맛이 풍부해진다."
+                },
+                {
+                    "name": "녹두전",
+                    "price": 14000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "접시만두",
+                    "price": 12000,
+                    "is_signature": true,
+                    "pairing_note": "쇼핑 중 가볍게 나눠 먹기 좋은 구성."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": false,
+                "characteristics": "맑은 육수, 기분 좋은 육향",
+                "taste_profile": "너무 진하지도 약하지도 않음, 시원함",
+                "saltiness": "보통",
+                "description": "소고기 육수에 동치미와 간장을 적절히 섞어 깔끔하고 고소하다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 70,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "고소함",
+                    "중간",
+                    "부드러움",
+                    "쫄깃",
+                    "메밀향"
+                ],
+                "texture": "두툼하고 툭툭 끊기는 메밀면",
+                "description": "쫄깃하면서도 잘 끊어지지 않아 육수와 함께 먹기 좋다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "열무김치",
+                    "아롱사태 수육"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 4,
+                "noodle_aroma": 4,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 82,
+                "reviewer_note": "회사원들에게 인기 있는 여의도 평냉집으로, 육수와 면의 밸런스가 훌륭하다."
+            },
+            "certifications": [
+                {
+                    "type": "michelin_bib",
+                    "year": 2023,
+                    "detail": "미쉐린 가이드 빕구르망"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2020,
+                    "detail": "미쉐린 가이드 서울 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 수록"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2024,
+                    "detail": "미쉐린 가이드 서울 빕 구르망 선정"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2025,
+                    "detail": "미쉐린 가이드 서울 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2025,
+                    "detail": "블루리본 서베이 선정"
+                }
+            ],
+            "awards": [
+                "미쉐린 가이드",
+                "블루리본 서베이"
+            ],
+            "features": [
+                "순면을 먹어야 한다는 평가",
+                "양이 많음"
+            ],
+            "parking": "건물 주차장 1시간 무료",
+            "parking_available": true,
+            "reservation": false,
+            "reservation_available": true,
+            "accessibility": "국회의사당역 1번 출구 도보 5~10분",
+            "average_wait_minutes": 25,
+            "recommended_for": [
+                "intermediate",
+                "expert",
+                "beginner"
+            ],
+            "best_season": "all",
+            "special_notes": [
+                "여의도 직장인들이 점심시간에 많이 찾음",
+                "여의도 본점 외 부천 중동에 분점 운영",
+                "점심 시간대 웨이팅 김",
+                "더현대서울 식당가 내 위치",
+                "쇼핑 동선과 결합하기 좋음"
+            ],
+            "famous_visitors": [
+                "박명수",
+                "나경원"
+            ],
+            "tags": [
+                "여의도맛집",
+                "수육",
+                "평양냉면",
+                "순메밀면",
+                "미쉐린",
+                "정인면옥",
+                "여의도",
+                "더현대서울"
+            ],
+            "rating_score": 4.1,
+            "order_options": null
+        },
+        {
+            "id": 17,
+            "slug": "jinmi-pyeongyang-nonhyeon",
+            "tier": 1,
+            "name": "진미평양냉면",
+            "name_hanja": null,
+            "name_english": "Jinmi Pyeongyang Naengmyeon",
+            "address": "서울 강남구 학동로 305-3 정각빌딩 1층",
+            "address_detail": "논현동",
+            "region": "gangnam_seocho",
+            "region_code": "gangnam_seocho",
+            "phone": "02-515-3469",
+            "hours": {
+                "weekday": "매일 11:00–21:30",
+                "weekend": "매일 11:00–21:30"
+            },
+            "hours_string": "11:00-20:30 (브레이크 15:30-17:00)",
+            "closed_days": [
+                "매주 일요일"
+            ],
+            "closed_days_string": "일요일",
+            "history": {
+                "founder": "임세권",
+                "origin": "장충동 평양면옥 주방장 출신",
+                "lineage": "장충동파",
+                "story": "장충동 평양면옥에서 20년 경력의 임세권 셰프가 창업. 3세대 평양냉면으로 분류"
+            },
+            "lineage": "jangchungdong",
+            "generation": 1,
+            "origin_story": "논현동에 자리 잡은 비교적 젊은 평양냉면집으로, 합리적인 가격과 구수한 육수로 직장인에게 인기다",
+            "menu": {
+                "signature": "냉면",
+                "naengmyeon_price": 15000,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "편육반",
+                    "제육"
+                ]
+            },
+            "price_range": "₩11,000–₩30,000",
+            "side_menus": [
+                {
+                    "name": "온면",
+                    "price": 11000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "만두",
+                    "price": 8000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "접시만두+편육 (반반)",
+                    "price": 18000,
+                    "is_signature": true,
+                    "pairing_note": "1인 손님도 부담 없이 만두와 편육을 함께 맛볼 수 있는 인기 사이드"
+                },
+                {
+                    "name": "접시만두",
+                    "price": 12000,
+                    "is_signature": true,
+                    "pairing_note": "진한 육수와 함께 식사 전에 나눠 먹기 좋은 사이드."
+                },
+                {
+                    "name": "편육",
+                    "price": 25000,
+                    "is_signature": false,
+                    "pairing_note": "냉면과 함께 소주·맥주를 곁들이는 손님에게 인기."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": false,
+                "characteristics": "가장 진한 육수의 평양냉면",
+                "taste_profile": "감칠맛 나는 육수, 중도를 표현하는 맛",
+                "saltiness": "보통",
+                "description": "깔끔한 쇠고기와 동치미 육수의 조화가 돋보이며 가격 대비 훌륭하다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 70,
+                "thickness": "medium",
+                "homemade": true,
+                "color": "노란빛",
+                "texture_keywords": [
+                    "탄탄함",
+                    "탱글",
+                    "질김",
+                    "쫄깃",
+                    "메밀향 적당",
+                    "탱글함",
+                    "균형잡힌 두께"
+                ],
+                "texture": "씹을수록 고소하고 달달한 맛",
+                "description": "메밀과 전분을 적당히 섞어 씹는 맛이 있는 면발이다."
+            },
+            "toppings": {
+                "has_pyeonyuk": false,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "김치",
+                    "돼지고기 편육",
+                    "배추김치 약간",
+                    "다대기"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 4,
+                "noodle_aroma": 3,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 78,
+                "reviewer_note": "가성비가 좋고 육수가 깔끔하지만 메밀향은 다소 약하다."
+            },
+            "certifications": [
+                {
+                    "type": "michelin_bib",
+                    "year": 2024,
+                    "detail": "미쉐린 가이드 서울 6년 연속 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 강남 평양냉면 대표 맛집"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2025,
+                    "detail": "미쉐린 가이드 서울 7년 연속 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2025,
+                    "detail": "블루리본 서베이 선정"
+                }
+            ],
+            "awards": [
+                "미쉐린 빕구르망 (2018년~)",
+                "포잉 어워즈 2016",
+                "식신 2018 최우수"
+            ],
+            "features": [
+                "강남 평양냉면 가성비 맛집",
+                "재료소진 시 조기마감"
+            ],
+            "parking": "발렛파킹 가능",
+            "parking_available": false,
+            "reservation": true,
+            "reservation_available": false,
+            "accessibility": "학동역 7번 출구 도보 10분",
+            "average_wait_minutes": 15,
+            "recommended_for": [
+                "intermediate",
+                "expert",
+                "beginner"
+            ],
+            "best_season": "summer",
+            "special_notes": [
+                "저녁 술손님 많음"
+            ],
+            "famous_visitors": [
+                "김대중"
+            ],
+            "tags": [
+                "진미평양냉면",
+                "임세권",
+                "평양냉면",
+                "가성비",
+                "학동"
+            ],
+            "rating_score": 4.5,
+            "order_options": null
+        },
+        {
+            "id": 18,
+            "slug": "pyeongraeok-euljiro",
+            "tier": 2,
+            "name": "평래옥",
+            "name_hanja": null,
+            "name_english": "Pyeongraeok",
+            "address": "서울 중구 마른내로 21-1",
+            "address_detail": "저동1가 124",
+            "region": "jongno_euljiro",
+            "region_code": "jongno_euljiro",
+            "phone": "02-2267-5892",
+            "hours": {
+                "weekday": "월–토 11:30–22:00 (브레이크타임 15:00–17:00)",
+                "weekend": "월–토 11:30–22:00 (브레이크타임 15:00–17:00)"
+            },
+            "hours_string": "11:30-22:00 (라스트오더 21:30)",
+            "closed_days": [
+                "매주 일요일"
+            ],
+            "closed_days_string": "일요일",
+            "history": {
+                "founded_year": 1950,
+                "founder": "박영환",
+                "origin": "평안도 평원",
+                "lineage": "독자적 계열",
+                "story": "1950년 평안도 상원(평원)면옥에서 이름을 따 인천에서 개업. 1953년 서울 입성, 전통음식인 녹두지짐과 쟁반국수가 유명"
+            },
+            "lineage": "independent",
+            "generation": 2,
+            "origin_story": "1950년대부터 을지로 일대에서 영업한 평양냉면 노포로, 평양냉면 외에 녹두지짐(빈대떡)과 어복쟁반을 잘하는 곳으로 알려져 있다.",
+            "menu": {
+                "signature": "함흥냉면",
+                "naengmyeon_price": 12000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "쟁반국수",
+                    "제육"
+                ]
+            },
+            "price_range": "₩14,000–₩80,000",
+            "side_menus": [
+                {
+                    "name": "언양불고기",
+                    "price": 80000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "전기통닭",
+                    "price": 20000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "녹두지짐",
+                    "price": 15000,
+                    "is_signature": true,
+                    "pairing_note": "옛 맛을 그대로 간직한 고소한 녹두빈대떡으로 술안주로 인기"
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 3,
+                "depth_level": 3,
+                "saltiness_level": 4,
+                "beef_aroma_level": 3,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": true,
+                "characteristics": "짭짤하고 새콤한 육수",
+                "taste_profile": "자극적이고 강렬한 맛",
+                "saltiness": "강함",
+                "description": "함흥식 비빔냉면 국물이 유명하며, 평양냉면 육수는 동치미 국물을 섞어 새콤짭짤한 편이다."
+            },
+            "noodle": {
+                "style": "thin_chewy",
+                "buckwheat_ratio": 30,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "질긴 식감",
+                    "쫄깃함",
+                    "강한 탄성"
+                ],
+                "texture": "질기고 탄성있는 면발",
+                "description": "고구마 전분 함량이 높아 쫀득하고 질긴 함흥식 면발이 특징이다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "김치"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 3,
+                "noodle_aroma": 2,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 3,
+                "authenticity_score": 60,
+                "reviewer_note": "평양냉면보다 함흥냉면으로 유명한 집으로, 녹두전 등 전통 안주류를 즐기기 위한 방문이 많다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2020,
+                    "detail": "김영철의 동네 한 바퀴 방영"
+                }
+            ],
+            "awards": [
+                "미쉐린 가이드 빕 구르망"
+            ],
+            "features": [
+                "녹두지짐(빈대떡)의 명가",
+                "전기구이 통닭으로 유명"
+            ],
+            "parking": "없음 (인근 유료주차장 이용)",
+            "parking_available": false,
+            "reservation": false,
+            "reservation_available": false,
+            "accessibility": "을지로3가역 1번 출구 도보 7분",
+            "average_wait_minutes": 20,
+            "recommended_for": [
+                "beginner",
+                "intermediate"
+            ],
+            "best_season": "winter",
+            "special_notes": [],
+            "famous_visitors": [],
+            "tags": [
+                "함흥냉면",
+                "녹두전",
+                "전기통닭",
+                "평래옥"
+            ],
+            "rating_score": 3.9,
+            "order_options": null
+        },
+        {
+            "id": 19,
+            "slug": "pyeongando-sangwon-hongdae",
+            "tier": 2,
+            "name": "평안도상원냉면",
+            "name_hanja": null,
+            "name_english": "Pyeongando Sangwon Naengmyeon",
+            "address": "서울 마포구 와우산로 137",
+            "address_detail": "서교동 469-58",
+            "region": "mapo_yeouido",
+            "region_code": "mapo_yeouido",
+            "phone": "02-338-8292",
+            "hours": {
+                "weekday": "매일 11:00–21:30",
+                "weekend": "매일 11:00–21:30"
+            },
+            "hours_string": "11:00-21:30",
+            "closed_days": [
+                "일요일, 공휴일"
+            ],
+            "closed_days_string": "일요일·공휴일",
+            "history": {
+                "founded_year": 2012,
+                "founder": "김기옥",
+                "origin": "평양 옥류관&청류관 리서치",
+                "lineage": "독자적 계열",
+                "story": "북한 옥류관의 평양냉면 맛을 구현하기 위해 연구한 사장이 차린 집. 초기에 김치 등 밑반찬이 없어 화제"
+            },
+            "lineage": "independent",
+            "generation": 1,
+            "origin_story": "홍대 앞 경의선 책거리 인근의 평양냉면집으로, 2010년대에 개업해 젊은 층에게 평양냉면의 매력을 전하고 있다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 9000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": false,
+                "other_menus": []
+            },
+            "price_range": "₩9,000–₩25,000",
+            "side_menus": [
+                {
+                    "name": "접시만두",
+                    "price": 8000,
+                    "is_signature": true,
+                    "pairing_note": "돼지고기와 두부가 조화로운 담백한 만두"
+                },
+                {
+                    "name": "온면",
+                    "price": 8000,
+                    "is_signature": false,
+                    "pairing_note": null
+                }
+            ],
+            "broth": {
+                "base": "beef_only",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": false,
+                "characteristics": "맑고 슴슴한 육수",
+                "taste_profile": "자극적이지 않은 순한 맛",
+                "saltiness": "약함",
+                "description": "진한 소고기 육수를 차게 식혀 간을 약하게 맞춰 슴슴한 맛을 구현."
+            },
+            "noodle": {
+                "style": "thin_crumbly",
+                "buckwheat_ratio": 40,
+                "thickness": "thin",
+                "homemade": true,
+                "texture_keywords": [
+                    "부드러움",
+                    "쉽게 끊어짐"
+                ],
+                "texture": "부드럽고 술술 넘어감",
+                "description": "전분을 많이 사용하지 않아 무른 식감에 가까운 면발."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": true,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "열무김치"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 4,
+                "noodle_aroma": 2,
+                "noodle_texture": 3,
+                "temperature": 4,
+                "overall_balance": 3,
+                "authenticity_score": 70,
+                "reviewer_note": "유명 평양냉면집들의 장점을 버무린 듯한 맛으로, 가격 대비 훌륭하나 메밀향이 약한 것이 아쉽다."
+            },
+            "certifications": [
+                {
+                    "type": "미쉐린 Plate",
+                    "year": 2018,
+                    "detail": "미쉐린 가이드 서울 추천"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2023,
+                    "detail": "블루리본 서베이 수록"
+                }
+            ],
+            "awards": [
+                "미쉐린 Plate 2018"
+            ],
+            "features": [
+                "가성비 뛰어난 평양냉면",
+                "홍대 앞 인기 맛집"
+            ],
+            "parking": "없음",
+            "parking_available": false,
+            "reservation": false,
+            "reservation_available": false,
+            "accessibility": "홍대입구역 3번 출구 도보 8분",
+            "average_wait_minutes": 10,
+            "recommended_for": [
+                "beginner",
+                "intermediate"
+            ],
+            "best_season": "summer",
+            "special_notes": [],
+            "famous_visitors": [
+                "유아인"
+            ],
+            "tags": [
+                "홍대",
+                "평양냉면",
+                "홍대냉면",
+                "평안도상원"
+            ],
+            "rating_score": 4.3,
+            "order_options": null
+        },
+        {
+            "id": 20,
+            "slug": "piyangok-cheongdam",
+            "tier": 2,
+            "name": "피양옥",
+            "name_hanja": null,
+            "name_english": "Piyangok",
+            "address": "서울 영등포구 국제금융로6길 33",
+            "address_detail": "여의도동 36-2",
+            "region": "mapo_yeouido",
+            "region_code": "mapo_yeouido",
+            "phone": "02-780-3838",
+            "hours": {
+                "weekday": "월–토 11:30–21:00",
+                "weekend": "월–토 11:30–21:00"
+            },
+            "hours_string": "11:30-21:00 (브레이크타임 15:00-17:00)",
+            "closed_days": [
+                "연중무휴"
+            ],
+            "closed_days_string": "월요일",
+            "history": {
+                "founded_year": 2004,
+                "founder": "박형남",
+                "origin": "청류관 재현",
+                "lineage": "독자적 계열",
+                "story": "방배동에서 시작, 청담동 거쳐 여의도 IFC몰에 안착. 오너셰프 주도로 정통 평양냉면 요리를 선보임"
+            },
+            "lineage": "independent",
+            "generation": 1,
+            "origin_story": "여의도 IFC몰 지하에서 영업 중인 평양냉면 전문점으로, 백화점 푸드코트처럼 캐주얼한 환경에서도 높은 퀄리티의 평양냉면을 맛볼 수 있다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 14000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "비빔냉면",
+                    "온면"
+                ]
+            },
+            "price_range": "₩14,000–₩50,000",
+            "side_menus": [
+                {
+                    "name": "평양제육 (반접시)",
+                    "price": 17000,
+                    "is_signature": true,
+                    "pairing_note": null
+                },
+                {
+                    "name": "접시만두 (반접시)",
+                    "price": 7000,
+                    "is_signature": true,
+                    "pairing_note": null
+                },
+                {
+                    "name": "평양온반",
+                    "price": 13000,
+                    "is_signature": true,
+                    "pairing_note": null
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 5,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": true,
+                "characteristics": "맑고 깊은 육향, 상큼한 뒷맛",
+                "taste_profile": "감칠맛 있으면서 시원함",
+                "saltiness": "보통",
+                "description": "소고기 육수에 동치미 국물을 섞어 깔끔한 감칠맛과 시원한 뒷맛을 낸다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 70,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "메밀향",
+                    "탱글함",
+                    "깔끔한 식감"
+                ],
+                "texture": "적당히 탄력 있고 매끄러운 면발",
+                "description": "메밀 함량이 높아 면에서 은은한 향이 나며 식감이 깔끔하다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "유자청 무절임",
+                    "김치",
+                    "겨자"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 4,
+                "noodle_aroma": 4,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 78,
+                "reviewer_note": "평양냉면과 온반을 함께 내는, 현대적인 감각의 평양냉면 전문점으로 깔끔하고 세련된 맛이 특징이다."
+            },
+            "certifications": [
+                {
+                    "type": "blue_ribbon",
+                    "year": 2023,
+                    "detail": "블루리본 서베이 서울 수록"
+                },
+                {
+                    "type": "broadcast",
+                    "year": 2019,
+                    "detail": "식객 허영만의 백반기행 방영"
+                },
+                {
+                    "type": "broadcast",
+                    "year": 2023,
+                    "detail": "냉면 가격·인플레이션 관련 기사·방송 다수"
+                }
+            ],
+            "awards": [
+                "강남 평양냉면 명가"
+            ],
+            "features": [
+                "어복쟁반으로 유명",
+                "밀키트 사업 진행 중",
+                "이북음식의 끝판왕으로 평가"
+            ],
+            "parking": "가능",
+            "parking_available": true,
+            "reservation": true,
+            "reservation_available": true,
+            "accessibility": "청담역 인근",
+            "average_wait_minutes": 30,
+            "recommended_for": [
+                "intermediate",
+                "expert",
+                "beginner"
+            ],
+            "best_season": "all",
+            "special_notes": [
+                "발레파킹 3,000원",
+                "청담동 본점 폐업 후 여의도 재오픈",
+                "옥류관 협업 뉴욕 팝업 진행 (2023)",
+                "발렛파킹 가능",
+                "고급 한식·고기집 콘셉트"
+            ],
+            "famous_visitors": [
+                "연예인",
+                "손석구",
+                "재계 인사"
+            ],
+            "tags": [
+                "청담맛집",
+                "어복쟁반",
+                "평양냉면",
+                "북한셰프",
+                "진한육수",
+                "청담동",
+                "피양옥",
+                "양고기"
+            ],
+            "rating_score": 4.2,
+            "order_options": null
+        },
+        {
+            "id": 21,
+            "slug": "pildong-myeonok",
+            "tier": 1,
+            "name": "필동면옥",
+            "name_hanja": null,
+            "name_english": "Pildong Myeonok",
+            "address": "서울 중구 서애로 26",
+            "address_detail": "필동3가 1-5",
+            "region": "jongno_euljiro",
+            "region_code": "jongno_euljiro",
+            "phone": "02-2266-2611",
+            "hours": {
+                "weekday": "매일 11:00–20:30 (브레이크타임 16:00–17:00)",
+                "weekend": "매일 11:00–20:30 (브레이크타임 16:00–17:00)"
+            },
+            "hours_string": "11:00-20:30 (브레이크 16:00-17:00, 라스트오더 15:30)",
+            "closed_days": [
+                "일요일"
+            ],
+            "closed_days_string": "일요일",
+            "history": {
+                "founded_year": 1985,
+                "founder": "의정부 평양면옥 창업주의 첫째 딸",
+                "origin": "의정부 평양면옥 계열",
+                "lineage": "의정부파",
+                "story": "의정부 평양면옥(1969년)의 첫째 딸이 창업. 을지면옥, 본가 평양면옥과 자매 가게"
+            },
+            "lineage": "uijeongbu",
+            "generation": 2,
+            "origin_story": "의정부평양면옥 창업자의 셋째 딸이 독립해 낸 곳으로, 필동 골목에서 70년 가까이 전통을 지켜오고 있다.",
+            "menu": {
+                "signature": "냉면",
+                "naengmyeon_price": 15000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "만둣국",
+                    "접시만두",
+                    "사리"
+                ]
+            },
+            "price_range": "₩14,000–₩30,000",
+            "side_menus": [
+                {
+                    "name": "편육",
+                    "price": 30000,
+                    "is_signature": true,
+                    "pairing_note": "냉면과 함께 비벼 먹으면 육향이 배가된다."
+                },
+                {
+                    "name": "비빔냉면",
+                    "price": 14000,
+                    "is_signature": false,
+                    "pairing_note": null
+                },
+                {
+                    "name": "접시만두",
+                    "price": 15000,
+                    "is_signature": true,
+                    "pairing_note": "고기와 두부가 꽉 찬 평양식 만두로 냉면과 함께 곁들이기 좋음"
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 5,
+                "saltiness_level": 3,
+                "beef_aroma_level": 5,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": false,
+                "characteristics": "슴슴하고 담백한 맛",
+                "taste_profile": "담담하지만 중독적인 맛",
+                "saltiness": "약함",
+                "description": "맑은 육수에 동치미 국물의 새콤함이 어우러져 담백하면서도 깊은 맛을 낸다."
+            },
+            "noodle": {
+                "style": "thin_crumbly",
+                "buckwheat_ratio": 80,
+                "thickness": "thin",
+                "homemade": true,
+                "texture_keywords": [
+                    "메밀풍미",
+                    "쫄깃함",
+                    "부드러움",
+                    "탄력",
+                    "메밀향",
+                    "흐트러지는 식감"
+                ],
+                "texture": "적당하게 끊어지는 식감",
+                "description": "메밀 함량이 높아 쉽게 끊어지지만 고소한 향이 강하게 느껴진다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "절인 얼갈이배추",
+                    "고춧가루 살짝 토핑",
+                    "김치",
+                    "겨자"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 5,
+                "noodle_aroma": 5,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 5,
+                "authenticity_score": 90,
+                "reviewer_note": "동치미 국물과 고깃국물이 적절하게 어우러진 육수가 훌륭하며 메밀향이 진한 면이 특징이다."
+            },
+            "certifications": [
+                {
+                    "type": "broadcast",
+                    "year": 2023,
+                    "detail": "tvN 수요미식회 소개"
+                },
+                {
+                    "type": "michelin_guide",
+                    "year": 2025,
+                    "detail": "미쉐린 가이드 서울 2025 빕 구르망"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2024,
+                    "detail": "블루리본 서베이 선정"
+                },
+                {
+                    "type": "michelin_bib",
+                    "year": 2024,
+                    "detail": "미쉐린 가이드 서울 Bib Gourmand"
+                },
+                {
+                    "type": "broadcast",
+                    "year": 2015,
+                    "detail": "TV 프로그램 및 다양한 매체에 서울 대표 평양냉면집으로 소개"
+                }
+            ],
+            "awards": [
+                "미쉐린 가이드"
+            ],
+            "features": [
+                "서울 3대 평양냉면 중 하나",
+                "의정부파 평양냉면의 서울 대표 가게",
+                "제육과 접시만두가 유명"
+            ],
+            "parking": "가능 (협소)",
+            "parking_available": false,
+            "reservation": false,
+            "reservation_available": false,
+            "accessibility": "충무로역 인근",
+            "average_wait_minutes": 25,
+            "recommended_for": [
+                "expert",
+                "intermediate"
+            ],
+            "best_season": "all",
+            "special_notes": [
+                "필동면옥에서는 육수를 별도로 주문할 수 있다",
+                "의정부 평양면옥의 장녀가 운영",
+                "점심시간 재료 소진 시 조기마감",
+                "남산·충무로 일대 평양냉면 투어의 중심지",
+                "점심시간 웨이팅 길어 조기 방문 추천"
+            ],
+            "famous_visitors": [
+                "미식가들",
+                "유명 셰프",
+                "게임업계 해외 대표 등 미식가 방문 기사 언급"
+            ],
+            "tags": [
+                "의정부계열",
+                "메밀향",
+                "평양냉면",
+                "의정부계",
+                "미쉐린",
+                "비빔냉면",
+                "필동면옥",
+                "의정부파",
+                "접시만두"
+            ],
+            "rating_score": 4.4,
+            "order_options": null
+        },
+        {
+            "id": 22,
+            "slug": "naengmyeon-jemyeonso-siheung",
+            "tier": 2,
+            "name": "냉면제면소",
+            "name_hanja": null,
+            "name_english": "Naengmyeon Jemyeonso",
+            "address": "경기 시흥시 대골안길 83-1 1층",
+            "address_detail": "대야동 499-14",
+            "region": "gyeonggi_south",
+            "region_code": "gyeonggi_south",
+            "phone": "031-362-5887",
+            "hours": {
+                "weekday": "월–일 11:30–16:00",
+                "weekend": "월–일 11:30–16:00"
+            },
+            "hours_string": "11:30-16:00",
+            "closed_days": [
+                "명절"
+            ],
+            "closed_days_string": "연중무휴 (명절 제외)",
+            "history": {
+                "lineage": "독자적 계열 (신생 맛집)",
+                "story": "2020년대에 문을 연 숨은 냉면 맛집으로, 자가 제면한 평양냉면과 함흥냉면을 함께 선보인다."
+            },
+            "lineage": "independent",
+            "generation": 1,
+            "origin_story": "시흥시 대야동 주택가에 위치한 냉면 전문점으로, 평양냉면과 함흥냉면을 모두 직접 만들어 저렴한 가격에 제공하는 숨은 맛집이다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 8000,
+                "bibim_naengmyeon": true,
+                "onmyeon": false,
+                "mandu": true,
+                "pyeonyuk": false,
+                "other_menus": [
+                    "비빔냉면(함흥)",
+                    "회냉면(함흥)",
+                    "사골수육국밥"
+                ]
+            },
+            "price_range": "₩8,000–₩19,000",
+            "side_menus": [
+                {
+                    "name": "만두",
+                    "price": 5000,
+                    "is_signature": false,
+                    "pairing_note": "담백한 손만두로 냉면과 함께 먹기 좋다."
+                },
+                {
+                    "name": "명태회무침",
+                    "price": 13000,
+                    "is_signature": true,
+                    "pairing_note": "함흥냉면과 곁들이기 좋은 매콤달달한 명태회."
+                },
+                {
+                    "name": "수육(소고기)",
+                    "price": 19000,
+                    "is_signature": false,
+                    "pairing_note": "진한 육수로 삶아 낸 소고기 편육으로, 냉면과 곁들여 먹으면 풍미가 좋다."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 3,
+                "depth_level": 3,
+                "saltiness_level": 3,
+                "beef_aroma_level": 3,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": true,
+                "characteristics": "깔끔하고 시원한 육수",
+                "taste_profile": "담백하면서도 새콤달콤한 맛",
+                "saltiness": "보통",
+                "description": "직접 고아 낸 사골 육수에 동치미 국물을 섞어 감칠맛과 청량감을 살린 국물."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 60,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "쫄깃함",
+                    "탄력",
+                    "부드러움",
+                    "적당한 메밀향"
+                ],
+                "texture": "탱탱하고 부드러운 면발",
+                "description": "메밀과 전분을 혼합하여 쫄깃한 식감을 내는 직접 제면 면발이다."
+            },
+            "toppings": {
+                "has_pyeonyuk": false,
+                "has_egg": true,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "열무김치 제공",
+                    "셀프바에서 추가 반찬 이용 가능",
+                    "식초·겨자 비치"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 3,
+                "broth_depth": 3,
+                "noodle_aroma": 3,
+                "noodle_texture": 4,
+                "temperature": 4,
+                "overall_balance": 4,
+                "authenticity_score": 75,
+                "reviewer_note": "저렴한 가격에 맛보는 평양냉면으로, 국물과 면의 조화가 무난하여 입문자도 즐길 수 있다."
+            },
+            "certifications": [],
+            "awards": [
+                "시흥 평양냉면 숨은 맛집"
+            ],
+            "features": [
+                "자가 제면",
+                "평양냉면·함흥냉면 겸업",
+                "가성비 뛰어난 냉면집"
+            ],
+            "parking": "없음 (인근 공영주차장 이용)",
+            "parking_available": false,
+            "reservation": false,
+            "reservation_available": false,
+            "accessibility": "시흥시 대야동 주택가 위치",
+            "average_wait_minutes": 5,
+            "recommended_for": [
+                "beginner",
+                "intermediate",
+                "expert"
+            ],
+            "best_season": "summer",
+            "special_notes": [
+                "여름철 재료 소진 시 조기 마감될 수 있음"
+            ],
+            "famous_visitors": [],
+            "tags": [
+                "시흥",
+                "평양냉면",
+                "함흥냉면",
+                "자가제면",
+                "가성비"
+            ]
+        },
+        {
+            "id": 23,
+            "slug": "sirang-myeonok-ansan",
+            "tier": 2,
+            "name": "시랑면옥",
+            "name_hanja": null,
+            "name_english": "Sirang Myeonok",
+            "address": "경기 안산시 상록구 시낭로 39 1층",
+            "address_detail": "월피동",
+            "region": "gyeonggi_south",
+            "region_code": "gyeonggi_south",
+            "phone": "031-486-1101",
+            "hours": {
+                "weekday": "화–일 11:00–20:00 (브레이크타임 15:00–17:00)",
+                "weekend": "화–일 11:00–20:00 (브레이크타임 15:00–17:00)"
+            },
+            "hours_string": "11:00-20:00 (브레이크 15:00-17:00)",
+            "closed_days": [
+                "월요일"
+            ],
+            "closed_days_string": "월요일",
+            "history": {
+                "founded_year": 2019,
+                "origin": "안산 지역 독자 창업",
+                "lineage": "독자적 계열",
+                "story": "2010년대 후반에 시작하여 안산 지역에서 평양냉면 문화를 전파한 곳으로, 안산 유일의 평양냉면 전문점이다."
+            },
+            "lineage": "independent",
+            "generation": 1,
+            "origin_story": "안산시에서 유일하게 평양냉면을 전문으로 하는 집으로, 100% 메밀 순면과 취향에 따라 선택 가능한 육수로 평냉 애호가들에게 호평받는다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 13000,
+                "bibim_naengmyeon": true,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "100% 메밀 순면(옵션)",
+                    "파불고기",
+                    "한우곰탕",
+                    "만둣국"
+                ]
+            },
+            "price_range": "₩13,000–₩38,000",
+            "side_menus": [
+                {
+                    "name": "찐만두",
+                    "price": 5000,
+                    "is_signature": true,
+                    "pairing_note": "큼직한 손만두 4개 제공, 냉면과 함께 먹기 좋은 사이드."
+                },
+                {
+                    "name": "돼지수육",
+                    "price": 22000,
+                    "is_signature": true,
+                    "pairing_note": "냉면 고명으로도 올라가는 담백한 돼지고기 수육."
+                },
+                {
+                    "name": "한우 수육",
+                    "price": 38000,
+                    "is_signature": false,
+                    "pairing_note": "고급 한우로 삶아낸 수육으로 진한 풍미를 느낄 수 있다."
+                }
+            ],
+            "broth": {
+                "base": "beef_dongchimi",
+                "clarity_level": 4,
+                "depth_level": 4,
+                "saltiness_level": 3,
+                "beef_aroma_level": 4,
+                "has_slush_ice": false,
+                "uses_soy_sauce": true,
+                "dongchimi": true,
+                "characteristics": "짙은 육향에 동치미의 청량함이 어우러진 국물",
+                "taste_profile": "담백하면서도 감칠맛 있는 맛",
+                "saltiness": "보통",
+                "description": "소고기 육수에 동치미 국물을 섞어 깊은 고기맛과 시원한 뒷맛을 동시에 느낄 수 있다."
+            },
+            "noodle": {
+                "style": "medium_balanced",
+                "buckwheat_ratio": 70,
+                "thickness": "medium",
+                "homemade": true,
+                "texture_keywords": [
+                    "거친 듯 부드러움",
+                    "쫄깃함",
+                    "탄력",
+                    "메밀향"
+                ],
+                "texture": "약간 거친 질감에 쫄깃한 면발",
+                "description": "메밀과 전분을 섞어 쫄깃하게 만든 면으로, 요청 시 100% 메밀 순면으로 변경 가능하다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": false,
+                "has_cucumber": false,
+                "has_pear": true,
+                "has_dongchimi_mu": true,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "동치미 무절임 제공",
+                    "묵은지 제공",
+                    "식초·겨자 비치"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 4,
+                "broth_depth": 5,
+                "noodle_aroma": 4,
+                "noodle_texture": 4,
+                "temperature": 5,
+                "overall_balance": 5,
+                "authenticity_score": 85,
+                "reviewer_note": "진한 육향의 국물과 메밀 향이 살아있는 면발로 평양냉면 애호가들과 초심자 모두 만족시키는 집."
+            },
+            "certifications": [],
+            "awards": [
+                "안산 평양냉면 대표 맛집"
+            ],
+            "features": [
+                "육수 선택 가능 (동치미/고기)",
+                "100% 순면 옵션 제공",
+                "평양냉면 양 푸짐"
+            ],
+            "parking": "전용 주차장 3대 무료",
+            "parking_available": true,
+            "reservation": false,
+            "reservation_available": true,
+            "accessibility": "안산 상록구 월피동 주택가 위치",
+            "average_wait_minutes": 10,
+            "recommended_for": [
+                "beginner",
+                "intermediate",
+                "expert"
+            ],
+            "best_season": "all",
+            "special_notes": [
+                "100% 순면(순메밀면)은 방문 30분 전 사전 요청 필요"
+            ],
+            "famous_visitors": [],
+            "tags": [
+                "안산",
+                "평양냉면",
+                "순면",
+                "동치미육수",
+                "직접제면"
+            ]
+        },
+        {
+            "id": 24,
+            "slug": "okdol-hyeonok-songpa",
+            "tier": 1,
+            "name": "옥돌현옥",
+            "name_hanja": null,
+            "name_english": "Okdol Hyunok",
+            "address": "서울 송파구 오금로36길 26-1",
+            "address_detail": "가락동 19-7",
+            "region": "songpa_jamsil",
+            "region_code": "songpa_jamsil",
+            "phone": "02-404-4824",
+            "hours": {
+                "weekday": "월–토 11:30–22:00",
+                "weekend": "일 11:30–21:00"
+            },
+            "hours_string": "11:30-22:00 (일 ~21:00)",
+            "closed_days": [],
+            "closed_days_string": "연중무휴",
+            "history": {
+                "founded_year": 2023,
+                "lineage": "독자적 계열",
+                "story": "2023년 문을 연 평양냉면 전문점으로, 메밀 100% 순면과 깊은 육수로 평양냉면 마니아들 사이에서 호평을 받고 있다."
+            },
+            "lineage": "independent",
+            "generation": 1,
+            "origin_story": "옥류관 스타일을 현대적으로 재해석해 메밀 함량 100%의 면과 진하면서 슴슴한 육수를 선보이며, 개점 직후부터 미쉐린 가이드에 선정될 정도로 인기몰이 중이다.",
+            "menu": {
+                "signature": "평양냉면",
+                "naengmyeon_price": 14000,
+                "bibim_naengmyeon": false,
+                "onmyeon": true,
+                "mandu": true,
+                "pyeonyuk": true,
+                "other_menus": [
+                    "돼지곰탕",
+                    "소고기국밥",
+                    "만둣국",
+                    "어복쟁반",
+                    "가자미식해"
+                ]
+            },
+            "price_range": "₩9,000–₩65,000",
+            "side_menus": [
+                {
+                    "name": "손만두",
+                    "price": 12000,
+                    "is_signature": true,
+                    "pairing_note": "두부를 듬뿍 넣어 담백한 손만두 (6개). 냉면과 함께 곁들이기 좋다."
+                },
+                {
+                    "name": "제수육",
+                    "price": 26000,
+                    "is_signature": true,
+                    "pairing_note": "마늘과 새우젓을 곁들여 먹기 좋은 돼지고기 수육."
+                },
+                {
+                    "name": "우수육",
+                    "price": 32000,
+                    "is_signature": false,
+                    "pairing_note": "한우 양지머리로 만든 부드러운 소고기 수육."
+                }
+            ],
+            "broth": {
+                "base": "beef_only",
+                "clarity_level": 4,
+                "depth_level": 5,
+                "saltiness_level": 2,
+                "beef_aroma_level": 5,
+                "has_slush_ice": false,
+                "uses_soy_sauce": false,
+                "dongchimi": false,
+                "characteristics": "진한 육향의 슴슴한 육수",
+                "taste_profile": "깊고 담백한 맛",
+                "saltiness": "약함 (슴슴)",
+                "description": "소뼈와 양지를 오래 끓여 낸 진한 육수에 간을 세게 하지 않아 메밀 향과 어우러지는 깊은 맛을 낸다."
+            },
+            "noodle": {
+                "style": "thin_crumbly",
+                "buckwheat_ratio": 100,
+                "thickness": "thin",
+                "homemade": true,
+                "texture_keywords": [
+                    "구수함",
+                    "메밀향",
+                    "거친 식감",
+                    "잘 끊어짐"
+                ],
+                "texture": "부드럽지만 쉽게 끊어지는 면발",
+                "description": "메밀가루만 사용해 뽑은 순면으로, 씹을수록 고소한 메밀 풍미가 진하게 느껴진다."
+            },
+            "toppings": {
+                "has_pyeonyuk": true,
+                "has_egg": false,
+                "has_cucumber": true,
+                "has_pear": false,
+                "has_dongchimi_mu": false,
+                "has_red_pepper_powder": false,
+                "extras": [
+                    "식초·겨자 비치",
+                    "콜키지 서비스 가능"
+                ]
+            },
+            "expert_rating": {
+                "broth_clarity": 5,
+                "broth_depth": 5,
+                "noodle_aroma": 5,
+                "noodle_texture": 4,
+                "temperature": 5,
+                "overall_balance": 5,
+                "authenticity_score": 90,
+                "reviewer_note": "메밀 100% 순면과 진하고 슴슴한 육수의 조화가 훌륭해 평양냉면 마니아들 사이에서 손꼽히는 맛집으로 떠올랐다."
+            },
+            "certifications": [
+                {
+                    "type": "michelin_guide",
+                    "year": 2025,
+                    "detail": "미쉐린 가이드 서울 2025 빕 구르망 선정"
+                },
+                {
+                    "type": "blue_ribbon",
+                    "year": 2025,
+                    "detail": "블루리본 서베이 선정"
+                }
+            ],
+            "awards": [
+                "미쉐린 가이드 서울 2025"
+            ],
+            "features": [
+                "메밀 100% 순면 사용",
+                "곰탕·온면 등 국물 요리도 전문",
+                "와인 콜키지 가능"
+            ],
+            "parking": "가게 앞 3대 주차 가능 (무료)",
+            "parking_available": true,
+            "reservation": false,
+            "reservation_available": false,
+            "accessibility": "오금역 5번 출구 도보 7분",
+            "average_wait_minutes": 20,
+            "recommended_for": [
+                "beginner",
+                "intermediate",
+                "expert"
+            ],
+            "best_season": "all",
+            "special_notes": [
+                "평양온면 주문 시 밥 제공",
+                "온육수 제공"
+            ],
+            "famous_visitors": [],
+            "tags": [
+                "송파",
+                "평양냉면",
+                "미쉐린",
+                "순면",
+                "옥돌현옥",
+                "곰탕"
+            ]
+        }
+    ],
+    "lineage_info": {
+        "우래옥_계열": {
+            "description": "1946년 개업한 우래옥을 본산으로 하는 계열. 소고기 육수 기반, 간이 센 편",
+            "restaurants": [
+                "봉피양",
+                "우래옥"
+            ]
+        },
+        " 의정부파": {
+            "description": "1969년 의정부 평양면옥을 시초로 하는 계열. 맑고 담백한 육수, 슴슴한 맛이 특징",
+            "restaurants": [
+                "필동면옥",
+                "을지면옥",
+                "평양면옥 (의정부)",
+                "본가평양면옥"
+            ]
+        },
+        "장충동파": {
+            "description": "평양 대동면옥에서 시작된 계열. 맑고 투명한 육수, 오이 고명 사용이 특징",
+            "restaurants": [
+                "평양면옥 (장충동)",
+                "진미평양냉면"
+            ]
+        },
+        "을밀대_계열": {
+            "description": "1971년 개업한 을밀대의 독자적 스타일. 굵고 부드러운 면, 살얼음 육수가 특징",
+            "restaurants": [
+                "을밀대"
+            ]
+        },
+        "옥류관_스타일": {
+            "description": "북한 옥류관 출신 요리사가 운영하는 스타일. 50년 전 옥류관 맛 재현",
+            "restaurants": [
+                "능라도",
+                "동무밥상"
+            ]
+        },
+        "독자적_계열": {
+            "description": "특정 계보에 속하지 않고 독자적인 스타일을 발전시킨 가게들",
+            "restaurants": [
+                "서관면옥",
+                "봉밀가",
+                "피양옥",
+                "강서면옥",
+                "유진식당",
+                "정인면옥",
+                "평래옥",
+                "평안도상원냉면",
+                "서경도락",
+                "남포면옥"
+            ]
+        }
+    },
+    "region_classification": {
+        "을지로_중구": [
+            "강서면옥",
+            "우래옥",
+            "평래옥",
+            "남포면옥"
+        ],
+        "종로": [
+            "유진식당",
+            "을지면옥"
+        ],
+        "마포_여의도": [
+            "을밀대",
+            "동무밥상",
+            "정인면옥",
+            "평안도상원냉면",
+            "서경도락"
+        ],
+        "강남_서초": [
+            "서관면옥",
+            "봉밀가",
+            "본가평양면옥",
+            "피양옥",
+            "진미평양냉면"
+        ],
+        "송파_강동": [
+            "봉피양"
+        ],
+        "중구_기타": [
+            "평양면옥 (장충동)",
+            "필동면옥"
+        ],
+        "경기_북부": [
+            "평양면옥 (의정부)"
+        ],
+        "경기_남부": [
+            "능라도"
+        ]
+    }
+}

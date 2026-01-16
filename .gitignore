@@ -1,0 +1,11 @@
+__pycache__/
+.DS_Store
+.env
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.cursor/
+.cursor/mcp.json
+.cursor/mcp.json
