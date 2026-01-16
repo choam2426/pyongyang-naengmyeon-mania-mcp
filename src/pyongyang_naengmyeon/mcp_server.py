@@ -93,7 +93,6 @@ app = Starlette(
             allow_headers=["*"],
         )
     ],
-    redirect_slashes=False,
 )
 
 
