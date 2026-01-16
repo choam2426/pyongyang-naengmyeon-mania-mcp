@@ -1,22 +1,23 @@
-# Fly.io 배포 설정
-app = "pyongyang-naengmyeon-mcp"
-primary_region = "nrt"  # 도쿄 (한국에서 가까움)
+# fly.toml app configuration file generated for pyongyang-naengmyeon-mania-mcp on 2026-01-16T12:34:54Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'pyongyang-naengmyeon-mania-mcp'
+primary_region = 'sjc'
 
 [build]
-  dockerfile = "Dockerfile"
-
-[env]
-  PORT = "8000"
-  PYTHONPATH = "/app/src"
 
 [http_service]
-  internal_port = 8000
+  internal_port = 8080
   force_https = true
-  auto_stop_machines = true   # 비활성 시 자동 중지 (비용 절감)
-  auto_start_machines = true  # 요청 시 자동 시작
-  min_machines_running = 0    # 최소 0개 (scale to zero)
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
 
 [[vm]]
-  cpu_kind = "shared"
+  memory = '1gb'
+  cpu_kind = 'shared'
   cpus = 1
-  memory_mb = 256
+  memory_mb = 1024
