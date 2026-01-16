@@ -242,7 +242,7 @@ fly deploy
 
 ```bash
 $env:PYTHONPATH="src"  # PowerShell
-python -m pyongyang_naengmyeon.sse_server
+python -m pyongyang_naengmyeon.mcp_server
 
 # http://localhost:8000/health 로 헬스체크
 ```

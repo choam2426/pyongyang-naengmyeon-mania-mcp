@@ -17,4 +17,4 @@ ENV PORT=8000
 EXPOSE 8000
 
 # SSE 서버 실행
-CMD ["python", "-m", "pyongyang_naengmyeon.sse_server"]
+CMD ["python", "-m", "pyongyang_naengmyeon.mcp_server"]
