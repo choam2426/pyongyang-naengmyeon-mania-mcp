@@ -1,0 +1,22 @@
+# Fly.io 배포 설정
+app = "pyongyang-naengmyeon-mcp"
+primary_region = "nrt"  # 도쿄 (한국에서 가까움)
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "8000"
+  PYTHONPATH = "/app/src"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = true   # 비활성 시 자동 중지 (비용 절감)
+  auto_start_machines = true  # 요청 시 자동 시작
+  min_machines_running = 0    # 최소 0개 (scale to zero)
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256
