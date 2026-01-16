@@ -196,49 +196,47 @@ class Restaurant(BaseModel):
     special_notes: list[str]
 ```
 
-## GCP Cloud Run 배포
+## Fly.io 배포 (무료)
 
-### 1. gcloud CLI로 배포 (가장 간단)
+### 1. Fly CLI 설치 & 로그인
 
 ```bash
-# GCP 프로젝트 설정
-gcloud config set project YOUR_PROJECT_ID
+# Windows PowerShell
+powershell -Command "iwr https://fly.io/install.ps1 -useb | iex"
 
-# 소스에서 직접 Cloud Run 배포 (Dockerfile 자동 감지)
-gcloud run deploy pyongyang-naengmyeon-mcp \
-  --source . \
-  --region asia-northeast3 \
-  --allow-unauthenticated \
-  --port 8000
+# 로그인
+fly auth login
 ```
 
-### 2. 또는 Artifact Registry 사용
+### 2. 배포
 
 ```bash
-# Artifact Registry에 Docker 이미지 푸시
-gcloud builds submit --tag asia-northeast3-docker.pkg.dev/YOUR_PROJECT_ID/cloud-run-source-deploy/pyongyang-naengmyeon-mcp
+# 첫 배포 (앱 생성)
+fly launch --no-deploy
 
-# Cloud Run 배포
-gcloud run deploy pyongyang-naengmyeon-mcp \
-  --image asia-northeast3-docker.pkg.dev/YOUR_PROJECT_ID/cloud-run-source-deploy/pyongyang-naengmyeon-mcp \
-  --region asia-northeast3 \
-  --allow-unauthenticated \
-  --port 8000
+# 배포
+fly deploy
 ```
 
 ### 3. 배포 후 사용
 
-배포 완료 시 URL 출력됨: `https://pyongyang-naengmyeon-mcp-xxxxx-du.a.run.app`
+배포 완료 시 URL 출력됨: `https://pyongyang-naengmyeon-mcp.fly.dev`
 
 ```json
 {
   "mcpServers": {
     "pyongyang-naengmyeon": {
-      "url": "https://pyongyang-naengmyeon-mcp-xxxxx-du.a.run.app/sse"
+      "url": "https://pyongyang-naengmyeon-mcp.fly.dev/sse"
     }
   }
 }
 ```
+
+### 무료 티어
+
+- 3개 shared-cpu-1x VM 무료
+- 월 160GB 아웃바운드 트래픽 무료
+- `auto_stop_machines = true` 설정으로 비활성 시 자동 중지
 
 ### 로컬 SSE 서버 테스트
 

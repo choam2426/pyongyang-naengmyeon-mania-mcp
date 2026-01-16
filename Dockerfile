@@ -3,7 +3,7 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # 의존성 설치
-COPY pyproject.toml .
+COPY pyproject.toml README.md ./
 RUN pip install --no-cache-dir .
 
 # 소스 코드 복사
