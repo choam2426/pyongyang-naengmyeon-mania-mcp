@@ -196,39 +196,45 @@ class Restaurant(BaseModel):
     special_notes: list[str]
 ```
 
-## AWS 배포
+## GCP Cloud Run 배포
 
-### 1. Docker 이미지 빌드 & ECR 푸시
+### 1. gcloud CLI로 배포 (가장 간단)
 
 ```bash
-# ECR 로그인
-aws ecr get-login-password --region ap-northeast-2 | docker login --username AWS --password-stdin <account-id>.dkr.ecr.ap-northeast-2.amazonaws.com
+# GCP 프로젝트 설정
+gcloud config set project YOUR_PROJECT_ID
 
-# 이미지 빌드
-docker build -t pyongyang-naengmyeon-mcp .
-
-# 태그 & 푸시
-docker tag pyongyang-naengmyeon-mcp:latest <account-id>.dkr.ecr.ap-northeast-2.amazonaws.com/pyongyang-naengmyeon-mcp:latest
-docker push <account-id>.dkr.ecr.ap-northeast-2.amazonaws.com/pyongyang-naengmyeon-mcp:latest
+# 소스에서 직접 Cloud Run 배포 (Dockerfile 자동 감지)
+gcloud run deploy pyongyang-naengmyeon-mcp \
+  --source . \
+  --region asia-northeast3 \
+  --allow-unauthenticated \
+  --port 8000
 ```
 
-### 2. AWS App Runner로 배포 (권장)
+### 2. 또는 Artifact Registry 사용
 
-1. AWS Console → App Runner → Create service
-2. Source: Container registry → Amazon ECR
-3. 이미지 URI 입력
-4. Port: 8000
-5. Create & deploy
+```bash
+# Artifact Registry에 Docker 이미지 푸시
+gcloud builds submit --tag asia-northeast3-docker.pkg.dev/YOUR_PROJECT_ID/cloud-run-source-deploy/pyongyang-naengmyeon-mcp
+
+# Cloud Run 배포
+gcloud run deploy pyongyang-naengmyeon-mcp \
+  --image asia-northeast3-docker.pkg.dev/YOUR_PROJECT_ID/cloud-run-source-deploy/pyongyang-naengmyeon-mcp \
+  --region asia-northeast3 \
+  --allow-unauthenticated \
+  --port 8000
+```
 
 ### 3. 배포 후 사용
 
-MCP 서버 URL: `https://your-app-runner-url.awsapprunner.com`
+배포 완료 시 URL 출력됨: `https://pyongyang-naengmyeon-mcp-xxxxx-du.a.run.app`
 
 ```json
 {
   "mcpServers": {
     "pyongyang-naengmyeon": {
-      "url": "https://your-app-runner-url.awsapprunner.com/sse"
+      "url": "https://pyongyang-naengmyeon-mcp-xxxxx-du.a.run.app/sse"
     }
   }
 }
